@@ -63,38 +63,44 @@ var convert = (input, output) => {
         }
 
         fs.writeFileSync(output, JSON.stringify(data, 0, '   '), 'utf8');
+        return data;
     } catch (e) {
         console.log(e);
     }
 };
 
 var reader = (inDir, outDir) => {
-    let files = fs.readdirSync(inDir);
+    let files = fs.readdirSync(inDir),
+        data = {};
     for (let i=0; i<files.length; i++) {
         let name = files[i],
             inFile = path.resolve(inDir, name),
             outFile = path.resolve(outDir, name.replace('.yml', '.json'));
         if (fs.statSync(inFile).isFile()) {
-            convert(inFile, outFile);
+            data[name.replace('.yml', '')] = convert(inFile, outFile);
         } else {
             let subOutDir = outFile,
                 subInDir = inFile;
 
             mkdir(subOutDir);
-            reader(subInDir, subOutDir);
+
+            data[name] = reader(subInDir, subOutDir);
         }
     }
+    return data;
 };
 
 var mkdir = (dirName) => {
     !fs.existsSync(dirName) && fs.mkdirSync(dirName);
 };
 // import 240
-var cnab240 = `${__dirname}/cnab240`;
+let cnab240 = `${__dirname}/cnab240`;
 mkdir(cnab240);
-reader(yamlCnab240, cnab240);
+let data240 = reader(yamlCnab240, cnab240);
+fs.writeFileSync(`${__dirname}/cnab240.json`, JSON.stringify(data240, 0, '   '), 'utf8');
 
 // import 400
 var cnab400 = `${__dirname}/cnab400`;
 mkdir(cnab400);
-reader(yamlCnab400, cnab400);
+let data400 = reader(yamlCnab400, cnab400);
+fs.writeFileSync(`${__dirname}/cnab400.json`, JSON.stringify(data400, 0, '   '), 'utf8');

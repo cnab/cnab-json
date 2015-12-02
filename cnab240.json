@@ -1,0 +1,3828 @@
+{
+   "104": {
+      "retorno": {
+         "detalhe_segmento_t": {
+            "uso_exclusivo_cef_01": {
+               "pos": [
+                  38,
+                  46
+               ],
+               "type": "alfa",
+               "size": 9,
+               "picture": "X(9)"
+            },
+            "nosso_numero": {
+               "pos": [
+                  47,
+                  57
+               ],
+               "type": "number",
+               "size": 11,
+               "picture": "9(11)"
+            },
+            "numero_documento": {
+               "pos": [
+                  59,
+                  69
+               ],
+               "type": "alfa",
+               "size": 11,
+               "picture": "X(11)"
+            },
+            "uso_exclusivo_cef_02": {
+               "pos": [
+                  70,
+                  73
+               ],
+               "type": "alfa",
+               "size": 4,
+               "picture": "X(4)"
+            }
+         },
+         "detalhe_segmento_u": {
+            "data_debito_tarifa": {
+               "pos": [
+                  154,
+                  161
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "uso_exclusivo_febraban_02": {
+               "pos": [
+                  162,
+                  240
+               ],
+               "type": "number",
+               "size": 79,
+               "picture": "9(79)"
+            }
+         }
+      },
+      "sigcb": {
+         "header_arquivo": {
+            "uso_exclusivo_caixa_01": {
+               "pos": [
+                  50,
+                  52
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)",
+               "default": "0"
+            },
+            "uso_exclusivo_banco_01": {
+               "pos": [
+                  65,
+                  71
+               ],
+               "type": "alfa",
+               "size": 7,
+               "picture": "X(7)",
+               "default": ""
+            },
+            "agencia": {
+               "pos": [
+                  53,
+                  57
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "agencia_dv": {
+               "pos": [
+                  58,
+                  58
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "codigo_cedente": {
+               "pos": [
+                  59,
+                  64
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(6)"
+            },
+            "uso_exclusivo_caixa_02": {
+               "pos": [
+                  65,
+                  71
+               ],
+               "type": "number",
+               "size": 7,
+               "picture": "9(7)",
+               "default": "0"
+            },
+            "uso_exclusivo_caixa_03": {
+               "pos": [
+                  72,
+                  72
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": "0"
+            },
+            "nome_empresa": {
+               "pos": [
+                  73,
+                  102
+               ],
+               "type": "alfa",
+               "size": 30,
+               "picture": "X(30)"
+            },
+            "nome_banco": {
+               "pos": [
+                  103,
+                  132
+               ],
+               "type": "alfa",
+               "size": 30,
+               "picture": "X(30)"
+            },
+            "uso_exclusivo_febraban_02": {
+               "pos": [
+                  133,
+                  142
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)",
+               "default": ""
+            },
+            "codigo_remessa_retorno": {
+               "pos": [
+                  143,
+                  143
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "data_geracao": {
+               "pos": [
+                  144,
+                  151
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "hora_geracao": {
+               "pos": [
+                  152,
+                  157
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(6)"
+            },
+            "numero_sequencial_arquivo": {
+               "pos": [
+                  158,
+                  163
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(6)"
+            },
+            "versao_layout_arquivo": {
+               "pos": [
+                  164,
+                  166
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)",
+               "default": "050"
+            },
+            "densidade_gravacao_arquivo": {
+               "pos": [
+                  167,
+                  171
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)",
+               "default": "0"
+            },
+            "uso_reservado_banco": {
+               "pos": [
+                  172,
+                  191
+               ],
+               "type": "alfa",
+               "size": 20,
+               "picture": "X(20)",
+               "default": ""
+            },
+            "uso_reservado_empresa": {
+               "pos": [
+                  192,
+                  211
+               ],
+               "type": "alfa",
+               "size": 20,
+               "picture": "X(20)",
+               "default": "REMESSA-PRODUCAO"
+            },
+            "versao_aplicativo_caixa": {
+               "pos": [
+                  212,
+                  215
+               ],
+               "type": "alfa",
+               "size": 4,
+               "picture": "X(4)",
+               "default": ""
+            },
+            "uso_exclusivo_febraban_03": {
+               "pos": [
+                  216,
+                  240
+               ],
+               "type": "alfa",
+               "size": 25,
+               "picture": "X(25)",
+               "default": ""
+            },
+            "codigo_convenio": {
+               "pos": [
+                  33,
+                  49
+               ],
+               "type": "number",
+               "size": 17,
+               "picture": "9(17)"
+            }
+         },
+         "header_lote": {
+            "codigo_inscricao": {
+               "pos": [
+                  18,
+                  18
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "numero_inscricao": {
+               "pos": [
+                  19,
+                  33
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(15)"
+            },
+            "codigo_convenio": {
+               "pos": [
+                  34,
+                  39
+               ],
+               "type": "alfa",
+               "size": 6,
+               "picture": "X(6)"
+            },
+            "uso_exclusivo_banco": {
+               "pos": [
+                  40,
+                  53
+               ],
+               "type": "alfa",
+               "size": 14,
+               "picture": "X(14)",
+               "default": ""
+            },
+            "agencia": {
+               "pos": [
+                  54,
+                  58
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "agencia_dv": {
+               "pos": [
+                  59,
+                  59
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "codigo_cedente": {
+               "pos": [
+                  60,
+                  65
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(6)"
+            },
+            "codigo_modelo": {
+               "pos": [
+                  66,
+                  72
+               ],
+               "type": "number",
+               "size": 7,
+               "picture": "9(7)",
+               "default": "0"
+            },
+            "uso_exclusivo_banco_02": {
+               "pos": [
+                  73,
+                  73
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": "0"
+            }
+         },
+         "remessa": {
+            "detalhe_segmento_p": {
+               "codigo_cedente": {
+                  "pos": [
+                     24,
+                     29
+                  ],
+                  "type": "number",
+                  "size": 6,
+                  "picture": "9(6)"
+               },
+               "uso_exclusivo_caixa_01": {
+                  "pos": [
+                     30,
+                     37
+                  ],
+                  "type": "number",
+                  "size": 8,
+                  "picture": "9(8)",
+                  "default": "0"
+               },
+               "uso_exclusivo_caixa_02": {
+                  "pos": [
+                     38,
+                     40
+                  ],
+                  "type": "number",
+                  "size": 3,
+                  "picture": "9(3)",
+                  "default": "0"
+               },
+               "modalidade_carteira": {
+                  "pos": [
+                     41,
+                     42
+                  ],
+                  "type": "number",
+                  "size": 2,
+                  "picture": "9(2)"
+               },
+               "nosso_numero": {
+                  "pos": [
+                     43,
+                     57
+                  ],
+                  "type": "number",
+                  "size": 15,
+                  "picture": "9(15)"
+               }
+            },
+            "detalhe_segmento_r": {
+               "uso_exclusivo_febraban_02": {
+                  "pos": [
+                     18,
+                     65
+                  ],
+                  "type": "number",
+                  "size": 48,
+                  "picture": "9(48)",
+                  "default": "0"
+               }
+            }
+         },
+         "retorno": {
+            "detalhe_segmento_t": {
+               "codigo_cedente": {
+                  "pos": [
+                     24,
+                     29
+                  ],
+                  "type": "number",
+                  "size": 6,
+                  "picture": "9(6)"
+               },
+               "nosso_numero": {
+                  "pos": [
+                     42,
+                     56
+                  ],
+                  "type": "number",
+                  "size": 15,
+                  "picture": "9(15)"
+               },
+               "numero_documento": {
+                  "pos": [
+                     59,
+                     69
+                  ],
+                  "type": "alfa",
+                  "size": 11,
+                  "picture": "X(11)"
+               },
+               "valor_titulo": {
+                  "pos": [
+                     82,
+                     96
+                  ],
+                  "type": "number",
+                  "size": 15,
+                  "picture": "9(13)V9(2)",
+                  "precision": 2
+               }
+            },
+            "detalhe_segmento_u": {
+               "data_debito_tarifa": {
+                  "pos": [
+                     154,
+                     161
+                  ],
+                  "type": "number",
+                  "size": 8,
+                  "picture": "9(8)"
+               },
+               "uso_exclusivo_febraban_02": {
+                  "pos": [
+                     162,
+                     240
+                  ],
+                  "type": "number",
+                  "size": 79,
+                  "picture": "9(79)"
+               }
+            }
+         },
+         "trailer_lote": {
+            "uso_exclusivo_febraban_01": {
+               "pos": [
+                  9,
+                  17
+               ],
+               "type": "alfa",
+               "size": 9,
+               "picture": "X(9)",
+               "default": ""
+            },
+            "uso_exclusivo_febraban_02": {
+               "pos": [
+                  93,
+                  123
+               ],
+               "type": "alfa",
+               "size": 31,
+               "picture": "X(31)",
+               "default": ""
+            },
+            "uso_exclusivo_febraban_03": {
+               "pos": [
+                  124,
+                  240
+               ],
+               "type": "alfa",
+               "size": 117,
+               "picture": "X(117)",
+               "default": ""
+            },
+            "qtde_titulo_cobranca_caucionada": {
+               "pos": [
+                  47,
+                  52
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(6)"
+            },
+            "valor_total_titulo_caucionada": {
+               "pos": [
+                  53,
+                  69
+               ],
+               "type": "number",
+               "size": 17,
+               "picture": "9(15)V9(2)",
+               "precision": 2
+            },
+            "qtde_titulo_cobranca_descontada": {
+               "pos": [
+                  70,
+                  75
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(6)"
+            },
+            "valor_total_titulo_descontada": {
+               "pos": [
+                  76,
+                  92
+               ],
+               "type": "number",
+               "size": 17,
+               "picture": "9(15)V9(2)",
+               "precision": 2
+            }
+         }
+      }
+   },
+   "001": {
+      "header_arquivo": {
+         "codigo_convenio": {
+            "pos": [
+               33,
+               41
+            ],
+            "type": "number",
+            "size": 9,
+            "picture": "9(9)"
+         },
+         "cobranca_cedente": {
+            "pos": [
+               42,
+               45
+            ],
+            "type": "number",
+            "size": 4,
+            "picture": "9(4)",
+            "default": 14
+         },
+         "carteira": {
+            "pos": [
+               46,
+               47
+            ],
+            "type": "number",
+            "size": 2,
+            "picture": "9(2)"
+         },
+         "variacao_carteira": {
+            "pos": [
+               48,
+               50
+            ],
+            "type": "number",
+            "size": 3,
+            "picture": "9(3)"
+         },
+         "uso_exclusivo_bb_01": {
+            "pos": [
+               51,
+               52
+            ],
+            "type": "alfa",
+            "size": 2,
+            "picture": "X(2)",
+            "default": ""
+         },
+         "conta": {
+            "pos": [
+               59,
+               70
+            ],
+            "type": "number",
+            "size": 12,
+            "picture": "9(12)"
+         },
+         "conta_dv": {
+            "pos": [
+               71,
+               71
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "agencia_mais_cedente_dv": {
+            "pos": [
+               72,
+               72
+            ],
+            "type": "alfa",
+            "size": 1,
+            "picture": "X(1)",
+            "default": ""
+         },
+         "uso_exclusivo_febraban_03": {
+            "pos": [
+               212,
+               222
+            ],
+            "type": "alfa",
+            "size": 11,
+            "picture": "X(11)",
+            "default": ""
+         },
+         "identificacao_cobranca_sem_papel": {
+            "pos": [
+               223,
+               225
+            ],
+            "type": "alfa",
+            "size": 3,
+            "picture": "X(3)",
+            "default": ""
+         },
+         "controle_vans": {
+            "pos": [
+               226,
+               228
+            ],
+            "type": "number",
+            "size": 3,
+            "picture": "9(3)",
+            "default": "0"
+         },
+         "tipo_servico": {
+            "pos": [
+               229,
+               230
+            ],
+            "type": "number",
+            "size": 2,
+            "picture": "9(2)",
+            "default": "0"
+         },
+         "ocorrencias": {
+            "pos": [
+               231,
+               240
+            ],
+            "type": "number",
+            "size": 10,
+            "picture": "9(10)",
+            "default": "0"
+         }
+      },
+      "header_lote": {
+         "numero_inscricao": {
+            "pos": [
+               19,
+               33
+            ],
+            "type": "number",
+            "size": 15,
+            "picture": "9(15)"
+         },
+         "codigo_convenio": {
+            "pos": [
+               34,
+               42
+            ],
+            "type": "number",
+            "size": 9,
+            "picture": "9(9)"
+         },
+         "cobranca_cedente": {
+            "pos": [
+               43,
+               46
+            ],
+            "type": "number",
+            "size": 4,
+            "picture": "9(4)",
+            "default": 14
+         },
+         "carteira": {
+            "pos": [
+               47,
+               48
+            ],
+            "type": "number",
+            "size": 2,
+            "picture": "9(2)"
+         },
+         "variacao_carteira": {
+            "pos": [
+               49,
+               51
+            ],
+            "type": "number",
+            "size": 3,
+            "picture": "9(3)"
+         },
+         "remessa_teste": {
+            "pos": [
+               52,
+               53
+            ],
+            "type": "alfa",
+            "size": 2,
+            "picture": "X(2)",
+            "default": ""
+         },
+         "conta": {
+            "pos": [
+               60,
+               71
+            ],
+            "type": "number",
+            "size": 12,
+            "picture": "9(12)"
+         },
+         "conta_dv": {
+            "pos": [
+               72,
+               72
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "agencia_mais_conta_dv": {
+            "pos": [
+               73,
+               73
+            ],
+            "type": "alfa",
+            "size": 1,
+            "picture": "X(1)",
+            "default": ""
+         },
+         "data_credito_obsoleto": {
+            "pos": [
+               200,
+               207
+            ],
+            "type": "number",
+            "size": 8,
+            "picture": "9(8)",
+            "default": "0"
+         }
+      },
+      "remessa": {
+         "detalhe_segmento_p": {
+            "conta": {
+               "pos": [
+                  24,
+                  35
+               ],
+               "type": "number",
+               "size": 12,
+               "picture": "9(12)"
+            },
+            "conta_dv": {
+               "pos": [
+                  36,
+                  36
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "agencia_mais_conta_dv": {
+               "pos": [
+                  37,
+                  37
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": ""
+            },
+            "nosso_numero": {
+               "pos": [
+                  38,
+                  57
+               ],
+               "type": "alfa",
+               "size": 20,
+               "picture": "X(20)"
+            },
+            "numero_documento": {
+               "pos": [
+                  63,
+                  77
+               ],
+               "type": "alfa",
+               "size": 15,
+               "picture": "X(15)"
+            }
+         }
+      }
+   },
+   "033": {
+      "header_arquivo": {
+         "uso_exclusivo_febraban_01": {
+            "pos": [
+               9,
+               16
+            ],
+            "type": "alfa",
+            "size": 8,
+            "picture": "X(8)",
+            "default": ""
+         },
+         "codigo_inscricao": {
+            "pos": [
+               17,
+               17
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "numero_inscricao": {
+            "pos": [
+               18,
+               32
+            ],
+            "type": "number",
+            "size": 15,
+            "picture": "9(15)"
+         },
+         "agencia": {
+            "pos": [
+               33,
+               36
+            ],
+            "type": "number",
+            "size": 4,
+            "picture": "9(4)"
+         },
+         "agencia_dv": {
+            "pos": [
+               37,
+               37
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "conta": {
+            "pos": [
+               38,
+               46
+            ],
+            "type": "number",
+            "size": 9,
+            "picture": "9(9)"
+         },
+         "conta_dv": {
+            "pos": [
+               47,
+               47
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "uso_exclusivo_banco_01": {
+            "pos": [
+               48,
+               52
+            ],
+            "type": "alfa",
+            "size": 5,
+            "picture": "X(5)",
+            "default": ""
+         },
+         "codigo_cedente": {
+            "pos": [
+               53,
+               61
+            ],
+            "type": "number",
+            "size": 9,
+            "picture": "9(9)"
+         },
+         "uso_exclusivo_banco_02": {
+            "pos": [
+               62,
+               72
+            ],
+            "type": "alfa",
+            "size": 11,
+            "picture": "X(11)"
+         },
+         "uso_exclusivo_febraban_03": {
+            "pos": [
+               167,
+               240
+            ],
+            "type": "alfa",
+            "size": 74,
+            "picture": "X(74)",
+            "default": ""
+         }
+      },
+      "header_lote": {
+         "uso_exclusivo_banco_01": {
+            "pos": [
+               12,
+               13
+            ],
+            "type": "alfa",
+            "size": 2,
+            "picture": "X(2)",
+            "default": ""
+         },
+         "codigo_cedente": {
+            "pos": [
+               34,
+               42
+            ],
+            "type": "number",
+            "size": 9,
+            "picture": "9(9)"
+         },
+         "uso_exclusivo_banco_02": {
+            "pos": [
+               43,
+               53
+            ],
+            "type": "alfa",
+            "size": 11,
+            "picture": "X(11)",
+            "default": ""
+         },
+         "agencia": {
+            "pos": [
+               54,
+               57
+            ],
+            "type": "number",
+            "size": 4,
+            "picture": "9(4)"
+         },
+         "agencia_dv": {
+            "pos": [
+               58,
+               58
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "conta": {
+            "pos": [
+               59,
+               67
+            ],
+            "type": "number",
+            "size": 9,
+            "picture": "9(9)"
+         },
+         "conta_dv": {
+            "pos": [
+               68,
+               68
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "uso_exclusivo_banco_03": {
+            "pos": [
+               69,
+               73
+            ],
+            "type": "alfa",
+            "size": 5,
+            "picture": "X(5)",
+            "default": ""
+         },
+         "uso_exclusivo_banco_04": {
+            "pos": [
+               200,
+               240
+            ],
+            "type": "alfa",
+            "size": 41,
+            "picture": "X(41)",
+            "default": ""
+         }
+      },
+      "remessa": {
+         "detalhe_segmento_p": {
+            "agencia": {
+               "pos": [
+                  18,
+                  21
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "agencia_dv": {
+               "pos": [
+                  22,
+                  22
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "conta": {
+               "pos": [
+                  23,
+                  31
+               ],
+               "type": "number",
+               "size": 9,
+               "picture": "9(9)"
+            },
+            "conta_dv": {
+               "pos": [
+                  32,
+                  32
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "conta_cobranca": {
+               "pos": [
+                  33,
+                  41
+               ],
+               "type": "number",
+               "size": 9,
+               "picture": "9(9)"
+            },
+            "conta_cobranca_dv": {
+               "pos": [
+                  42,
+                  42
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "reservado_santander_01": {
+               "pos": [
+                  43,
+                  44
+               ],
+               "type": "alfa",
+               "size": 2,
+               "picture": "X(2)",
+               "default": ""
+            },
+            "nosso_numero": {
+               "pos": [
+                  45,
+                  57
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(13)"
+            },
+            "reservado_santander_02": {
+               "pos": [
+                  61,
+                  61
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": ""
+            },
+            "reservado_santander_03": {
+               "pos": [
+                  62,
+                  62
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": ""
+            },
+            "numero_documento": {
+               "pos": [
+                  63,
+                  77
+               ],
+               "type": "alfa",
+               "size": 15,
+               "picture": "X(15)"
+            },
+            "agencia_cobradora": {
+               "pos": [
+                  101,
+                  104
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)",
+               "default": "0"
+            },
+            "agencia_cobradora_dv": {
+               "pos": [
+                  105,
+                  105
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": "0"
+            },
+            "reservado_santander_04": {
+               "pos": [
+                  106,
+                  106
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": ""
+            },
+            "reservado_santander_05": {
+               "pos": [
+                  225,
+                  225
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": "0"
+            },
+            "prazo_baixa": {
+               "pos": [
+                  226,
+                  227
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            }
+         },
+         "detalhe_segmento_q": {
+            "identificador_carne": {
+               "pos": [
+                  210,
+                  212
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)",
+               "default": "0"
+            },
+            "sequencial_parcela": {
+               "pos": [
+                  213,
+                  215
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)",
+               "default": "0"
+            },
+            "quantidade_parcela": {
+               "pos": [
+                  216,
+                  218
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)",
+               "default": "0"
+            },
+            "numero_plano": {
+               "pos": [
+                  219,
+                  221
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)",
+               "default": "0"
+            },
+            "reservado_santander_01": {
+               "pos": [
+                  222,
+                  240
+               ],
+               "type": "alfa",
+               "size": 19,
+               "picture": "X(19)",
+               "default": ""
+            }
+         },
+         "detalhe_segmento_r": {
+            "codigo_desconto_02": {
+               "pos": [
+                  18,
+                  18
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": 0
+            },
+            "data_desconto_02": {
+               "pos": [
+                  19,
+                  26
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)",
+               "default": ""
+            },
+            "valor_desconto_02": {
+               "pos": [
+                  27,
+                  41
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "default": 0,
+               "precision": 2
+            },
+            "reservado_santander_01": {
+               "pos": [
+                  42,
+                  65
+               ],
+               "type": "alfa",
+               "size": 24,
+               "picture": "X(24)",
+               "default": ""
+            }
+         },
+         "header_arquivo": {
+            "codigo_transmissao": {
+               "pos": [
+                  33,
+                  47
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(15)"
+            },
+            "reservado_santander_01": {
+               "pos": [
+                  48,
+                  72
+               ],
+               "type": "alfa",
+               "size": 25,
+               "picture": "X(25)",
+               "default": ""
+            },
+            "reservado_santander_02": {
+               "pos": [
+                  152,
+                  157
+               ],
+               "type": "alfa",
+               "size": 6,
+               "picture": "X(6)",
+               "default": ""
+            },
+            "versao_layout_arquivo": {
+               "pos": [
+                  164,
+                  166
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)",
+               "default": "40"
+            }
+         },
+         "header_lote": {
+            "reservado_santander_01": {
+               "pos": [
+                  34,
+                  53
+               ],
+               "type": "alfa",
+               "size": 20,
+               "picture": "X(20)",
+               "default": ""
+            },
+            "codigo_transmissao": {
+               "pos": [
+                  54,
+                  68
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(15)"
+            },
+            "reservado_santander_02": {
+               "pos": [
+                  69,
+                  73
+               ],
+               "type": "alfa",
+               "size": 5,
+               "picture": "X(5)",
+               "default": ""
+            },
+            "mensagem1": {
+               "pos": [
+                  104,
+                  143
+               ],
+               "type": "alfa",
+               "size": 40,
+               "picture": "X(40)",
+               "default": ""
+            },
+            "mensagem2": {
+               "pos": [
+                  144,
+                  183
+               ],
+               "type": "alfa",
+               "size": 40,
+               "picture": "X(40)",
+               "default": ""
+            },
+            "reservado_santander_03": {
+               "pos": [
+                  200,
+                  240
+               ],
+               "type": "alfa",
+               "size": 41,
+               "picture": "X(41)",
+               "default": ""
+            }
+         }
+      },
+      "retorno": {
+         "detalhe_segmento_t": {
+            "agencia_mantenedora": {
+               "pos": [
+                  18,
+                  21
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "agencia_dv": {
+               "pos": [
+                  22,
+                  22
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "conta": {
+               "pos": [
+                  23,
+                  31
+               ],
+               "type": "number",
+               "size": 9,
+               "picture": "9(9)"
+            },
+            "conta_dv": {
+               "pos": [
+                  32,
+                  32
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "uso_exclusivo_banco_01": {
+               "pos": [
+                  33,
+                  40
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(8)"
+            },
+            "nosso_numero": {
+               "pos": [
+                  41,
+                  53
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(13)"
+            },
+            "codigo_carteira": {
+               "pos": [
+                  54,
+                  54
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "numero_documento": {
+               "pos": [
+                  55,
+                  69
+               ],
+               "type": "alfa",
+               "size": 15,
+               "picture": "X(15)"
+            },
+            "data_vencimento": {
+               "pos": [
+                  70,
+                  77
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "valor_titulo": {
+               "pos": [
+                  78,
+                  92
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "numero_banco": {
+               "pos": [
+                  93,
+                  95
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "agencia_cobradora": {
+               "pos": [
+                  96,
+                  99
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "agencia_cobradora_dac": {
+               "pos": [
+                  100,
+                  100
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "uso_empresa": {
+               "pos": [
+                  101,
+                  125
+               ],
+               "type": "alfa",
+               "size": 25,
+               "picture": "X(25)"
+            },
+            "codigo_moeda": {
+               "pos": [
+                  126,
+                  127
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "tipo_inscricao": {
+               "pos": [
+                  128,
+                  128
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "numero_inscricao": {
+               "pos": [
+                  129,
+                  143
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(15)"
+            },
+            "nome_sacado": {
+               "pos": [
+                  144,
+                  183
+               ],
+               "type": "alfa",
+               "size": 40,
+               "picture": "X(40)"
+            },
+            "conta_cobranca": {
+               "pos": [
+                  184,
+                  193
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "valor_tarifa": {
+               "pos": [
+                  194,
+                  208
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "identificacao_rejeicao": {
+               "pos": [
+                  209,
+                  218
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "uso_exclusivo_banco_03": {
+               "pos": [
+                  219,
+                  240
+               ],
+               "type": "alfa",
+               "size": 22,
+               "picture": "X(22)",
+               "default": ""
+            }
+         }
+      },
+      "trailer_lote": {
+         "qtde_titulo_cobranca_vinculada": {
+            "pos": [
+               47,
+               52
+            ],
+            "type": "alfa",
+            "size": 6,
+            "picture": "X(6)",
+            "default": ""
+         },
+         "valor_total_titulo_vinculada": {
+            "pos": [
+               53,
+               69
+            ],
+            "type": "number",
+            "size": 17,
+            "picture": "9(15)V9(2)",
+            "default": "0",
+            "precision": 2
+         }
+      }
+   },
+   "generic": {
+      "header_arquivo": {
+         "codigo_banco": {
+            "pos": [
+               1,
+               3
+            ],
+            "type": "number",
+            "size": 3,
+            "picture": "9(3)"
+         },
+         "lote_servico": {
+            "pos": [
+               4,
+               7
+            ],
+            "type": "number",
+            "size": 4,
+            "picture": "9(4)",
+            "default": "0000"
+         },
+         "tipo_registro": {
+            "pos": [
+               8,
+               8
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)",
+            "default": "0"
+         },
+         "uso_exclusivo_febraban_01": {
+            "pos": [
+               9,
+               17
+            ],
+            "type": "alfa",
+            "size": 9,
+            "picture": "X(9)",
+            "default": ""
+         },
+         "codigo_inscricao": {
+            "pos": [
+               18,
+               18
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "numero_inscricao": {
+            "pos": [
+               19,
+               32
+            ],
+            "type": "number",
+            "size": 14,
+            "picture": "9(14)"
+         },
+         "codigo_convenio": {
+            "pos": [
+               33,
+               48
+            ],
+            "type": "number",
+            "size": 16,
+            "picture": "9(16)"
+         },
+         "uso_exclusivo_banco_01": {
+            "pos": [
+               49,
+               52
+            ],
+            "type": "alfa",
+            "size": 4,
+            "picture": "X(4)",
+            "default": ""
+         },
+         "agencia": {
+            "pos": [
+               53,
+               57
+            ],
+            "type": "number",
+            "size": 5,
+            "picture": "9(5)"
+         },
+         "agencia_dv": {
+            "pos": [
+               58,
+               58
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "codigo_cedente": {
+            "pos": [
+               59,
+               70
+            ],
+            "type": "number",
+            "size": 12,
+            "picture": "9(12)"
+         },
+         "codigo_cedente_dv": {
+            "pos": [
+               71,
+               71
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "agencia_mais_cedente_dv": {
+            "pos": [
+               72,
+               72
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "nome_empresa": {
+            "pos": [
+               73,
+               102
+            ],
+            "type": "alfa",
+            "size": 30,
+            "picture": "X(30)"
+         },
+         "nome_banco": {
+            "pos": [
+               103,
+               132
+            ],
+            "type": "alfa",
+            "size": 30,
+            "picture": "X(30)"
+         },
+         "uso_exclusivo_febraban_02": {
+            "pos": [
+               133,
+               142
+            ],
+            "type": "alfa",
+            "size": 10,
+            "picture": "X(10)",
+            "default": ""
+         },
+         "codigo_remessa_retorno": {
+            "pos": [
+               143,
+               143
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "data_geracao": {
+            "pos": [
+               144,
+               151
+            ],
+            "type": "number",
+            "size": 8,
+            "picture": "9(8)"
+         },
+         "hora_geracao": {
+            "pos": [
+               152,
+               157
+            ],
+            "type": "number",
+            "size": 6,
+            "picture": "9(6)"
+         },
+         "numero_sequencial_arquivo": {
+            "pos": [
+               158,
+               163
+            ],
+            "type": "number",
+            "size": 6,
+            "picture": "9(6)"
+         },
+         "versao_layout_arquivo": {
+            "pos": [
+               164,
+               166
+            ],
+            "type": "number",
+            "size": 3,
+            "picture": "9(3)",
+            "default": "030"
+         },
+         "densidade_gravacao_arquivo": {
+            "pos": [
+               167,
+               171
+            ],
+            "type": "number",
+            "size": 5,
+            "picture": "9(5)",
+            "default": "0"
+         },
+         "uso_reservado_banco": {
+            "pos": [
+               172,
+               191
+            ],
+            "type": "alfa",
+            "size": 20,
+            "picture": "X(20)",
+            "default": ""
+         },
+         "uso_reservado_empresa": {
+            "pos": [
+               192,
+               211
+            ],
+            "type": "alfa",
+            "size": 20,
+            "picture": "X(20)",
+            "default": "REMESSA-PRODUCAO"
+         },
+         "uso_exclusivo_febraban_03": {
+            "pos": [
+               212,
+               240
+            ],
+            "type": "alfa",
+            "size": 29,
+            "picture": "X(29)",
+            "default": ""
+         }
+      },
+      "header_lote": {
+         "codigo_banco": {
+            "pos": [
+               1,
+               3
+            ],
+            "type": "number",
+            "size": 3,
+            "picture": "9(3)"
+         },
+         "lote_servico": {
+            "pos": [
+               4,
+               7
+            ],
+            "type": "number",
+            "size": 4,
+            "picture": "9(4)"
+         },
+         "tipo_registro": {
+            "pos": [
+               8,
+               8
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)",
+            "default": "1"
+         },
+         "tipo_operacao": {
+            "pos": [
+               9,
+               9
+            ],
+            "type": "alfa",
+            "size": 1,
+            "picture": "X(1)"
+         },
+         "tipo_servico": {
+            "pos": [
+               10,
+               11
+            ],
+            "type": "number",
+            "size": 2,
+            "picture": "9(2)",
+            "default": "01"
+         },
+         "forma_lancamento": {
+            "pos": [
+               12,
+               13
+            ],
+            "type": "number",
+            "size": 2,
+            "picture": "9(2)",
+            "default": "00"
+         },
+         "versao_layout_lote": {
+            "pos": [
+               14,
+               16
+            ],
+            "type": "number",
+            "size": 3,
+            "picture": "9(3)",
+            "default": "030"
+         },
+         "uso_exclusivo_febraban_01": {
+            "pos": [
+               17,
+               17
+            ],
+            "type": "alfa",
+            "size": 1,
+            "picture": "X(1)",
+            "default": ""
+         },
+         "codigo_inscricao": {
+            "pos": [
+               18,
+               18
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "numero_inscricao": {
+            "pos": [
+               19,
+               33
+            ],
+            "type": "number",
+            "size": 15,
+            "picture": "9(15)"
+         },
+         "codigo_convenio": {
+            "pos": [
+               34,
+               49
+            ],
+            "type": "alfa",
+            "size": 16,
+            "picture": "X(16)"
+         },
+         "uso_exclusivo_banco": {
+            "pos": [
+               50,
+               53
+            ],
+            "type": "alfa",
+            "size": 4,
+            "picture": "X(4)",
+            "default": ""
+         },
+         "agencia": {
+            "pos": [
+               54,
+               58
+            ],
+            "type": "number",
+            "size": 5,
+            "picture": "9(5)"
+         },
+         "agencia_dv": {
+            "pos": [
+               59,
+               59
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "codigo_cedente": {
+            "pos": [
+               60,
+               71
+            ],
+            "type": "number",
+            "size": 12,
+            "picture": "9(12)"
+         },
+         "codigo_cedente_dv": {
+            "pos": [
+               72,
+               72
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "agencia_mais_cedente_dv": {
+            "pos": [
+               73,
+               73
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)"
+         },
+         "nome_empresa": {
+            "pos": [
+               74,
+               103
+            ],
+            "type": "alfa",
+            "size": 30,
+            "picture": "X(30)"
+         },
+         "mensagem_1": {
+            "pos": [
+               104,
+               143
+            ],
+            "type": "alfa",
+            "size": 40,
+            "picture": "X(40)",
+            "default": ""
+         },
+         "mensagem_2": {
+            "pos": [
+               144,
+               183
+            ],
+            "type": "alfa",
+            "size": 40,
+            "picture": "X(40)",
+            "default": ""
+         },
+         "numero_sequencial_arquivo": {
+            "pos": [
+               184,
+               191
+            ],
+            "type": "number",
+            "size": 8,
+            "picture": "9(8)"
+         },
+         "data_geracao": {
+            "pos": [
+               192,
+               199
+            ],
+            "type": "number",
+            "size": 8,
+            "picture": "9(8)"
+         },
+         "data_credito": {
+            "pos": [
+               200,
+               207
+            ],
+            "type": "number",
+            "size": 8,
+            "picture": "9(8)",
+            "default": "0"
+         },
+         "uso_exclusivo_febraban_02": {
+            "pos": [
+               208,
+               240
+            ],
+            "type": "alfa",
+            "size": 33,
+            "picture": "X(33)",
+            "default": ""
+         }
+      },
+      "remessa": {
+         "detalhe_segmento_p": {
+            "codigo_banco": {
+               "pos": [
+                  1,
+                  3
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "lote_servico": {
+               "pos": [
+                  4,
+                  7
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "tipo_registro": {
+               "pos": [
+                  8,
+                  8
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": "3"
+            },
+            "numero_sequencial_lote": {
+               "pos": [
+                  9,
+                  13
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "codigo_segmento": {
+               "pos": [
+                  14,
+                  14
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": "P"
+            },
+            "uso_exclusivo_febraban_01": {
+               "pos": [
+                  15,
+                  15
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": ""
+            },
+            "codigo_ocorrencia": {
+               "pos": [
+                  16,
+                  17
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "agencia": {
+               "pos": [
+                  18,
+                  22
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "agencia_dv": {
+               "pos": [
+                  23,
+                  23
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "codigo_cedente": {
+               "pos": [
+                  24,
+                  35
+               ],
+               "type": "number",
+               "size": 12,
+               "picture": "9(12)"
+            },
+            "codigo_cedente_dv": {
+               "pos": [
+                  36,
+                  36
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "agencia_mais_cedente_dv": {
+               "pos": [
+                  37,
+                  37
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "uso_exclusivo_banco_01": {
+               "pos": [
+                  38,
+                  46
+               ],
+               "type": "alfa",
+               "size": 9,
+               "picture": "X(9)",
+               "default": ""
+            },
+            "nosso_numero": {
+               "pos": [
+                  47,
+                  57
+               ],
+               "type": "number",
+               "size": 11,
+               "picture": "9(11)"
+            },
+            "codigo_carteira": {
+               "pos": [
+                  58,
+                  58
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "forma_cadastramento": {
+               "pos": [
+                  59,
+                  59
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "tipo_documento": {
+               "pos": [
+                  60,
+                  60
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": "2"
+            },
+            "identificacao_emissao": {
+               "pos": [
+                  61,
+                  61
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": "2"
+            },
+            "identificacao_distribuicao": {
+               "pos": [
+                  62,
+                  62
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": "2"
+            },
+            "numero_documento": {
+               "pos": [
+                  63,
+                  73
+               ],
+               "type": "alfa",
+               "size": 11,
+               "picture": "X(11)"
+            },
+            "uso_exclusivo_banco_02": {
+               "pos": [
+                  74,
+                  77
+               ],
+               "type": "alfa",
+               "size": 4,
+               "picture": "X(4)",
+               "default": ""
+            },
+            "vencimento": {
+               "pos": [
+                  78,
+                  85
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "valor_titulo": {
+               "pos": [
+                  86,
+                  100
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "agencia_cobradora": {
+               "pos": [
+                  101,
+                  105
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)",
+               "default": "0"
+            },
+            "agencia_cobradora_dv": {
+               "pos": [
+                  106,
+                  106
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": "0"
+            },
+            "especie": {
+               "pos": [
+                  107,
+                  108
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "aceite": {
+               "pos": [
+                  109,
+                  109
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "data_emissao": {
+               "pos": [
+                  110,
+                  117
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "codigo_juros_mora": {
+               "pos": [
+                  118,
+                  118
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "data_juros_mora": {
+               "pos": [
+                  119,
+                  126
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "valor_juros_mora": {
+               "pos": [
+                  127,
+                  141
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "codigo_desconto_1": {
+               "pos": [
+                  142,
+                  142
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "data_desconto_1": {
+               "pos": [
+                  143,
+                  150
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "valor_desconto_1": {
+               "pos": [
+                  151,
+                  165
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "valor_iof": {
+               "pos": [
+                  166,
+                  180
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "default": "0",
+               "precision": 2
+            },
+            "valor_abatimento": {
+               "pos": [
+                  181,
+                  195
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "uso_empresa": {
+               "pos": [
+                  196,
+                  220
+               ],
+               "type": "alfa",
+               "size": 25,
+               "picture": "X(25)"
+            },
+            "codigo_protesto": {
+               "pos": [
+                  221,
+                  221
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "prazo_protesto": {
+               "pos": [
+                  222,
+                  223
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "codigo_baixa": {
+               "pos": [
+                  224,
+                  224
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "prazo_baixa": {
+               "pos": [
+                  225,
+                  227
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "codigo_moeda": {
+               "pos": [
+                  228,
+                  229
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)",
+               "default": "09"
+            },
+            "uso_exclusivo_banco_03": {
+               "pos": [
+                  230,
+                  239
+               ],
+               "type": "number",
+               "size": 10,
+               "picture": "9(10)",
+               "default": "0"
+            },
+            "uso_exclusivo_febraban_02": {
+               "pos": [
+                  240,
+                  240
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": ""
+            }
+         },
+         "detalhe_segmento_q": {
+            "codigo_banco": {
+               "pos": [
+                  1,
+                  3
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "lote_servico": {
+               "pos": [
+                  4,
+                  7
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "tipo_registro": {
+               "pos": [
+                  8,
+                  8
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": "3"
+            },
+            "numero_sequencial_lote": {
+               "pos": [
+                  9,
+                  13
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "codigo_segmento": {
+               "pos": [
+                  14,
+                  14
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": "Q"
+            },
+            "uso_exclusivo_febraban_01": {
+               "pos": [
+                  15,
+                  15
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": ""
+            },
+            "codigo_ocorrencia": {
+               "pos": [
+                  16,
+                  17
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "sacado_codigo_inscricao": {
+               "pos": [
+                  18,
+                  18
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "sacado_numero_inscricao": {
+               "pos": [
+                  19,
+                  33
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(15)"
+            },
+            "nome": {
+               "pos": [
+                  34,
+                  73
+               ],
+               "type": "alfa",
+               "size": 40,
+               "picture": "X(40)"
+            },
+            "logradouro": {
+               "pos": [
+                  74,
+                  113
+               ],
+               "type": "alfa",
+               "size": 40,
+               "picture": "X(40)"
+            },
+            "bairro": {
+               "pos": [
+                  114,
+                  128
+               ],
+               "type": "alfa",
+               "size": 15,
+               "picture": "X(15)"
+            },
+            "cep": {
+               "pos": [
+                  129,
+                  136
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "cidade": {
+               "pos": [
+                  137,
+                  151
+               ],
+               "type": "alfa",
+               "size": 15,
+               "picture": "X(15)"
+            },
+            "estado": {
+               "pos": [
+                  152,
+                  153
+               ],
+               "type": "alfa",
+               "size": 2,
+               "picture": "X(2)"
+            },
+            "sacador_codigo_inscricao": {
+               "pos": [
+                  154,
+                  154
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "sacador_numero_inscricao": {
+               "pos": [
+                  155,
+                  169
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(15)"
+            },
+            "sacador_nome": {
+               "pos": [
+                  170,
+                  209
+               ],
+               "type": "alfa",
+               "size": 40,
+               "picture": "X(40)"
+            },
+            "uso_exclusivo_febraban_02": {
+               "pos": [
+                  210,
+                  212
+               ],
+               "type": "alfa",
+               "size": 3,
+               "picture": "X(3)",
+               "default": ""
+            },
+            "uso_exclusivo_febraban_03": {
+               "pos": [
+                  213,
+                  232
+               ],
+               "type": "alfa",
+               "size": 20,
+               "picture": "X(20)",
+               "default": ""
+            },
+            "uso_exclusivo_febraban_04": {
+               "pos": [
+                  233,
+                  240
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(8)",
+               "default": ""
+            }
+         },
+         "detalhe_segmento_r": {
+            "codigo_banco": {
+               "pos": [
+                  1,
+                  3
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "lote_servico": {
+               "pos": [
+                  4,
+                  7
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "tipo_registro": {
+               "pos": [
+                  8,
+                  8
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": "3"
+            },
+            "numero_sequencial_lote": {
+               "pos": [
+                  9,
+                  13
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "codigo_segmento": {
+               "pos": [
+                  14,
+                  14
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": "R"
+            },
+            "uso_exclusivo_febraban_01": {
+               "pos": [
+                  15,
+                  15
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": ""
+            },
+            "codigo_ocorrencia": {
+               "pos": [
+                  16,
+                  17
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "uso_exclusivo_febraban_02": {
+               "pos": [
+                  18,
+                  65
+               ],
+               "type": "alfa",
+               "size": 48,
+               "picture": "X(48)",
+               "default": ""
+            },
+            "codigo_multa": {
+               "pos": [
+                  66,
+                  66
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "data_multa": {
+               "pos": [
+                  67,
+                  74
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "valor_multa": {
+               "pos": [
+                  75,
+                  89
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "informacao_sacado": {
+               "pos": [
+                  90,
+                  99
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)",
+               "default": ""
+            },
+            "mensagem_3": {
+               "pos": [
+                  100,
+                  139
+               ],
+               "type": "alfa",
+               "size": 40,
+               "picture": "X(40)",
+               "default": ""
+            },
+            "mensagem_4": {
+               "pos": [
+                  140,
+                  179
+               ],
+               "type": "alfa",
+               "size": 40,
+               "picture": "X(40)",
+               "default": ""
+            },
+            "uso_exclusivo_febraban_03": {
+               "pos": [
+                  180,
+                  240
+               ],
+               "type": "alfa",
+               "size": 61,
+               "picture": "X(61)",
+               "default": ""
+            }
+         }
+      },
+      "retorno": {
+         "detalhe_segmento_t": {
+            "codigo_banco": {
+               "pos": [
+                  1,
+                  3
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "lote_servico": {
+               "pos": [
+                  4,
+                  7
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "tipo_registro": {
+               "pos": [
+                  8,
+                  8
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "numero_sequencial_lote": {
+               "pos": [
+                  9,
+                  13
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "codigo_segmento": {
+               "pos": [
+                  14,
+                  14
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "uso_exclusivo_febraban_01": {
+               "pos": [
+                  15,
+                  15
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "codigo_movimento": {
+               "pos": [
+                  16,
+                  17
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "agencia_mantenedora": {
+               "pos": [
+                  18,
+                  22
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "agencia_dv": {
+               "pos": [
+                  23,
+                  23
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "codigo_cedente": {
+               "pos": [
+                  24,
+                  35
+               ],
+               "type": "number",
+               "size": 12,
+               "picture": "9(12)"
+            },
+            "codigo_cedente_dv": {
+               "pos": [
+                  36,
+                  36
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "agencia_dv_mais_cedente_dv": {
+               "pos": [
+                  37,
+                  37
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "nosso_numero": {
+               "pos": [
+                  38,
+                  57
+               ],
+               "type": "number",
+               "size": 20,
+               "picture": "9(20)"
+            },
+            "codigo_carteira": {
+               "pos": [
+                  58,
+                  58
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "numero_documento": {
+               "pos": [
+                  59,
+                  73
+               ],
+               "type": "alfa",
+               "size": 15,
+               "picture": "X(15)"
+            },
+            "data_vencimento": {
+               "pos": [
+                  74,
+                  81
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "valor_titulo": {
+               "pos": [
+                  82,
+                  96
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "numero_banco": {
+               "pos": [
+                  97,
+                  99
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "agencia_cobradora": {
+               "pos": [
+                  100,
+                  104
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "agencia_cobradora_dac": {
+               "pos": [
+                  105,
+                  105
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "uso_empresa": {
+               "pos": [
+                  106,
+                  130
+               ],
+               "type": "alfa",
+               "size": 25,
+               "picture": "X(25)"
+            },
+            "codigo_moeda": {
+               "pos": [
+                  131,
+                  132
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "tipo_inscricao": {
+               "pos": [
+                  133,
+                  133
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "numero_inscricao": {
+               "pos": [
+                  134,
+                  148
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(15)"
+            },
+            "nome_sacado": {
+               "pos": [
+                  149,
+                  188
+               ],
+               "type": "alfa",
+               "size": 40,
+               "picture": "X(40)"
+            },
+            "uso_exclusivo_febraban_02": {
+               "pos": [
+                  189,
+                  198
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "valor_tarifa": {
+               "pos": [
+                  199,
+                  213
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "identificacao_rejeicao": {
+               "pos": [
+                  214,
+                  223
+               ],
+               "type": "number",
+               "size": 10,
+               "picture": "9(10)"
+            },
+            "uso_exclusivo_febraban": {
+               "pos": [
+                  224,
+                  240
+               ],
+               "type": "alfa",
+               "size": 17,
+               "picture": "X(17)"
+            }
+         },
+         "detalhe_segmento_u": {
+            "codigo_banco": {
+               "pos": [
+                  1,
+                  3
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "lote_servico": {
+               "pos": [
+                  4,
+                  7
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "tipo_registro": {
+               "pos": [
+                  8,
+                  8
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "numero_sequencial_registro": {
+               "pos": [
+                  9,
+                  13
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "codigo_segmento": {
+               "pos": [
+                  14,
+                  14
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "uso_exclusivo_febraban_01": {
+               "pos": [
+                  15,
+                  15
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "codigo_movimento": {
+               "pos": [
+                  16,
+                  17
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "valor_acrescimos": {
+               "pos": [
+                  18,
+                  32
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "valor_desconto": {
+               "pos": [
+                  33,
+                  47
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "valor_abatimento": {
+               "pos": [
+                  48,
+                  62
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "valor_iof": {
+               "pos": [
+                  63,
+                  77
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "valor_pago": {
+               "pos": [
+                  78,
+                  92
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "valor_liquido": {
+               "pos": [
+                  93,
+                  107
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "valor_outras_despesas": {
+               "pos": [
+                  108,
+                  122
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "valor_outros_creditos": {
+               "pos": [
+                  123,
+                  137
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "data_ocorrencia": {
+               "pos": [
+                  138,
+                  145
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "data_credito": {
+               "pos": [
+                  146,
+                  153
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "ocorrencia_sacado_codigo": {
+               "pos": [
+                  154,
+                  157
+               ],
+               "type": "alfa",
+               "size": 4,
+               "picture": "X(4)"
+            },
+            "ocorrencia_sacado_data": {
+               "pos": [
+                  158,
+                  165
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(8)"
+            },
+            "ocorrencia_sacado_valor": {
+               "pos": [
+                  166,
+                  180
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(13)V9(2)",
+               "precision": 2
+            },
+            "ocorrencia_sacado_complemento": {
+               "pos": [
+                  181,
+                  210
+               ],
+               "type": "alfa",
+               "size": 30,
+               "picture": "X(30)"
+            },
+            "codigo_banco_correspondente": {
+               "pos": [
+                  211,
+                  213
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "nosso_numero_banco_correspondente": {
+               "pos": [
+                  214,
+                  233
+               ],
+               "type": "number",
+               "size": 20,
+               "picture": "9(20)"
+            },
+            "uso_exclusivo_febraban_02": {
+               "pos": [
+                  234,
+                  240
+               ],
+               "type": "number",
+               "size": 7,
+               "picture": "9(7)"
+            }
+         },
+         "detalhe_segmento_w": {
+            "codigo_banco": {
+               "pos": [
+                  1,
+                  3
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "lote_servico": {
+               "pos": [
+                  4,
+                  7
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "tipo_registro": {
+               "pos": [
+                  8,
+                  8
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "numero_sequencial": {
+               "pos": [
+                  9,
+                  13
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "codigo_segmento": {
+               "pos": [
+                  14,
+                  14
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "uso_exclusivo_febraban_01": {
+               "pos": [
+                  15,
+                  15
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "codigo_movimento": {
+               "pos": [
+                  16,
+                  17
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "posicao_relativa": {
+               "pos": [
+                  18,
+                  23
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(6)"
+            },
+            "uso_exclusivo_banco_01": {
+               "pos": [
+                  24,
+                  24
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "codigo_campo_01": {
+               "pos": [
+                  25,
+                  28
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "codigo_erro_01": {
+               "pos": [
+                  29,
+                  31
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "todo_repeat_codigo_campo_codigo_erro_20": {
+               "pos": [
+                  32,
+                  157
+               ],
+               "type": "alfa",
+               "size": 126,
+               "picture": "X(126)"
+            }
+         },
+         "header_lote_captura": {
+            "codigo_banco": {
+               "pos": [
+                  1,
+                  3
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "lote_servico": {
+               "pos": [
+                  4,
+                  7
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "tipo_registro": {
+               "pos": [
+                  8,
+                  8
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "tipo_operacao": {
+               "pos": [
+                  9,
+                  9
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "tipo_servico": {
+               "pos": [
+                  10,
+                  11
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "uso_exclusivo_febraban_01": {
+               "pos": [
+                  12,
+                  13
+               ],
+               "type": "alfa",
+               "size": 2,
+               "picture": "X(2)"
+            },
+            "versao_layout_lote": {
+               "pos": [
+                  14,
+                  16
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "uso_exclusivo_febraban_02": {
+               "pos": [
+                  17,
+                  17
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "tipo_inscricao_empresa": {
+               "pos": [
+                  18,
+                  18
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "numero_inscricao_empresa": {
+               "pos": [
+                  19,
+                  33
+               ],
+               "type": "number",
+               "size": 15,
+               "picture": "9(15)"
+            },
+            "codigo_convenio": {
+               "pos": [
+                  34,
+                  49
+               ],
+               "type": "alfa",
+               "size": 16,
+               "picture": "X(16)"
+            },
+            "uso_exclusivo_caixa_01": {
+               "pos": [
+                  50,
+                  53
+               ],
+               "type": "alfa",
+               "size": 4,
+               "picture": "X(4)"
+            },
+            "agencia_mantenedora": {
+               "pos": [
+                  54,
+                  58
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "agencia_dv": {
+               "pos": [
+                  59,
+                  59
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "codigo_cedente": {
+               "pos": [
+                  60,
+                  71
+               ],
+               "type": "alfa",
+               "size": 12,
+               "picture": "X(12)"
+            },
+            "codigo_cedente_dv": {
+               "pos": [
+                  72,
+                  72
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "agencia_dv_mais_codigo_cedente_dv": {
+               "pos": [
+                  73,
+                  73
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "nome_empresa": {
+               "pos": [
+                  74,
+                  103
+               ],
+               "type": "alfa",
+               "size": 30,
+               "picture": "X(30)"
+            },
+            "uso_exclusivo_febraban_03": {
+               "pos": [
+                  104,
+                  240
+               ],
+               "type": "alfa",
+               "size": 137,
+               "picture": "X(137)"
+            }
+         }
+      },
+      "trailer_arquivo": {
+         "codigo_banco": {
+            "pos": [
+               1,
+               3
+            ],
+            "type": "number",
+            "size": 3,
+            "picture": "9(3)"
+         },
+         "lote_servico": {
+            "pos": [
+               4,
+               7
+            ],
+            "type": "number",
+            "size": 4,
+            "picture": "9(4)",
+            "default": "9999"
+         },
+         "tipo_registro": {
+            "pos": [
+               8,
+               8
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)",
+            "default": "9"
+         },
+         "uso_exclusivo_febraban01": {
+            "pos": [
+               9,
+               17
+            ],
+            "type": "alfa",
+            "size": 9,
+            "picture": "X(9)",
+            "default": ""
+         },
+         "qtde_lotes": {
+            "pos": [
+               18,
+               23
+            ],
+            "type": "number",
+            "size": 6,
+            "picture": "9(6)"
+         },
+         "qtde_registros": {
+            "pos": [
+               24,
+               29
+            ],
+            "type": "number",
+            "size": 6,
+            "picture": "9(6)"
+         },
+         "uso_exclusivo_febraban02": {
+            "pos": [
+               30,
+               35
+            ],
+            "type": "alfa",
+            "size": 6,
+            "picture": "X(6)",
+            "default": ""
+         },
+         "uso_exclusivo_febraban_03": {
+            "pos": [
+               36,
+               240
+            ],
+            "type": "alfa",
+            "size": 205,
+            "picture": "X(205)",
+            "default": ""
+         }
+      },
+      "trailer_lote": {
+         "codigo_banco": {
+            "pos": [
+               1,
+               3
+            ],
+            "type": "number",
+            "size": 3,
+            "picture": "9(3)"
+         },
+         "lote_servico": {
+            "pos": [
+               4,
+               7
+            ],
+            "type": "number",
+            "size": 4,
+            "picture": "9(4)"
+         },
+         "tipo_registro": {
+            "pos": [
+               8,
+               8
+            ],
+            "type": "number",
+            "size": 1,
+            "picture": "9(1)",
+            "default": "5"
+         },
+         "uso_exclusivo_febraban_01": {
+            "pos": [
+               9,
+               17
+            ],
+            "type": "alfa",
+            "size": 9,
+            "picture": "X(9)",
+            "default": ""
+         },
+         "qtde_registro_lote": {
+            "pos": [
+               18,
+               23
+            ],
+            "type": "number",
+            "size": 6,
+            "picture": "9(6)"
+         },
+         "qtde_titulo_cobranca_simples": {
+            "pos": [
+               24,
+               29
+            ],
+            "type": "number",
+            "size": 6,
+            "picture": "9(6)"
+         },
+         "valor_total_titulo_simples": {
+            "pos": [
+               30,
+               46
+            ],
+            "type": "number",
+            "size": 17,
+            "picture": "9(15)V9(2)",
+            "precision": 2
+         },
+         "uso_exclusivo_febraban_02": {
+            "pos": [
+               47,
+               52
+            ],
+            "type": "alfa",
+            "size": 6,
+            "picture": "X(6)",
+            "default": ""
+         },
+         "uso_exclusivo_febraban_03": {
+            "pos": [
+               53,
+               69
+            ],
+            "type": "number",
+            "size": 17,
+            "picture": "9(15)V9(2)",
+            "default": "0",
+            "precision": 2
+         },
+         "qtde_titulo_cobranca_caucionada": {
+            "pos": [
+               70,
+               75
+            ],
+            "type": "number",
+            "size": 6,
+            "picture": "9(6)"
+         },
+         "valor_total_titulo_caucionada": {
+            "pos": [
+               76,
+               92
+            ],
+            "type": "number",
+            "size": 17,
+            "picture": "9(15)V9(2)",
+            "precision": 2
+         },
+         "qtde_titulo_cobranca_descontada": {
+            "pos": [
+               93,
+               98
+            ],
+            "type": "number",
+            "size": 6,
+            "picture": "9(6)"
+         },
+         "valor_total_titulo_descontada": {
+            "pos": [
+               99,
+               115
+            ],
+            "type": "number",
+            "size": 17,
+            "picture": "9(15)V9(2)",
+            "precision": 2
+         },
+         "uso_exclusivo_febraban_04": {
+            "pos": [
+               116,
+               123
+            ],
+            "type": "alfa",
+            "size": 8,
+            "picture": "X(8)",
+            "default": ""
+         },
+         "uso_exclusivo_febraban_05": {
+            "pos": [
+               124,
+               240
+            ],
+            "type": "alfa",
+            "size": 117,
+            "picture": "X(117)",
+            "default": ""
+         }
+      }
+   }
+}

@@ -1,0 +1,2904 @@
+{
+   "104": {
+      "retorno": {
+         "codigo_ocorrencia": {
+            "1": "Entrada Confirmada",
+            "2": "Baixa Confirmada",
+            "3": "Abatimento Concedido",
+            "4": "Abatimento Cancelado",
+            "5": "Vencimento Alterado",
+            "6": "Uso da Empresa Alterado",
+            "7": "Prazo de Protesto Alterado",
+            "8": "Prazo de Devolução Alterado",
+            "9": "Alteração Confirmada",
+            "10": "Alteração com Reemissão de Bloqueto Confirmada",
+            "11": "Alteração da Opção de Protesto para Devolução",
+            "12": "Alteração da Opção de Devolução para protesto",
+            "20": "Em Ser",
+            "21": "Liquidação",
+            "22": "Liquidação em Cartório",
+            "23": "Baixa por Devolução",
+            "24": "Baixa por Franco Pagamento",
+            "25": "Baixa por Protesto",
+            "26": "Título enviado para Cartório",
+            "27": "Sustação de Protesto",
+            "28": "Estorno de Protesto",
+            "29": "Estorno de Sustação de Protesto",
+            "30": "Alteração de Título",
+            "31": "Tarifa sobre Título Vencido",
+            "32": "Outras Tarifas de Alteração",
+            "33": "Estorno de Baixa/Liquidação",
+            "34": "Transferência de Carteira/Entrada",
+            "35": "Transferência de Carteira/Baixa",
+            "99": "Rejeição do Título – Cód. Rejeição informado nas POS 80 a 82"
+         },
+         "detalhe": {
+            "codigo_cedente": {
+               "pos": [
+                  18,
+                  33
+               ],
+               "type": "alfa",
+               "size": 16,
+               "picture": "X(16)",
+               "default": ""
+            },
+            "brancos01": {
+               "pos": [
+                  34,
+                  37
+               ],
+               "type": "alfa",
+               "size": 4,
+               "picture": "X(04)",
+               "default": ""
+            },
+            "nosso_numero": {
+               "pos": [
+                  63,
+                  73
+               ],
+               "type": "number",
+               "size": 11,
+               "picture": "9(11)"
+            },
+            "brancos21": {
+               "pos": [
+                  74,
+                  79
+               ],
+               "type": "alfa",
+               "size": 6,
+               "picture": "X(6)"
+            },
+            "codigo_rejeicao": {
+               "pos": [
+                  80,
+                  82
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "uso_do_banco": {
+               "pos": [
+                  83,
+                  106
+               ],
+               "type": "alfa",
+               "size": 24,
+               "picture": "X(24)"
+            },
+            "carteira": {
+               "pos": [
+                  107,
+                  108
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "brancos04": {
+               "pos": [
+                  127,
+                  146
+               ],
+               "type": "alfa",
+               "size": 20,
+               "picture": "X(20)"
+            },
+            "tipo_de_liquidacao": {
+               "pos": [
+                  189,
+                  191
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "forma_de_pagamento": {
+               "pos": [
+                  192,
+                  192
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "float": {
+               "pos": [
+                  193,
+                  194
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "data_debito_tarifa": {
+               "pos": [
+                  195,
+                  200
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(6)"
+            },
+            "brancos05": {
+               "pos": [
+                  201,
+                  214
+               ],
+               "type": "alfa",
+               "size": 14,
+               "picture": "X(14)"
+            },
+            "valor_juros": {
+               "pos": [
+                  267,
+                  279
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_multa": {
+               "pos": [
+                  280,
+                  292
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "moeda": {
+               "pos": [
+                  293,
+                  293
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "data_credito": {
+               "pos": [
+                  294,
+                  299
+               ],
+               "type": "alfa",
+               "size": 6,
+               "picture": "X(06)"
+            },
+            "brancos06": {
+               "pos": [
+                  300,
+                  394
+               ],
+               "type": "alfa",
+               "size": 95,
+               "picture": "X(95)"
+            }
+         },
+         "header_arquivo": {
+            "codigo_cedente": {
+               "pos": [
+                  27,
+                  42
+               ],
+               "type": "number",
+               "size": 16,
+               "picture": "9(16)"
+            },
+            "brancos01": {
+               "pos": [
+                  43,
+                  46
+               ],
+               "type": "alfa",
+               "size": 4,
+               "picture": "X(04)",
+               "default": ""
+            },
+            "mensagem": {
+               "pos": [
+                  101,
+                  158
+               ],
+               "type": "alfa",
+               "size": 58,
+               "picture": "X(58)"
+            },
+            "brancos02": {
+               "pos": [
+                  159,
+                  389
+               ],
+               "type": "alfa",
+               "size": 231,
+               "picture": "X(231)",
+               "default": ""
+            },
+            "numero_sequencial_a": {
+               "pos": [
+                  390,
+                  394
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(05)",
+               "default": "1"
+            },
+            "numero_sequencial_b": {
+               "pos": [
+                  395,
+                  400
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)",
+               "default": "1"
+            }
+         },
+         "trailer_arquivo": {
+            "brancos01": {
+               "pos": [
+                  8,
+                  394
+               ],
+               "type": "alfa",
+               "size": 387,
+               "picture": "X(387)"
+            }
+         }
+      }
+   },
+   "237": {
+      "retorno": {
+         "codigo_ocorrencia": {
+            "2": "Entrada Confirmada",
+            "3": "Entrada Rejeitada",
+            "6": "Liquidação normal",
+            "9": "Baixado Automat. via Arquivo",
+            "10": "Baixado conforme instruções da Agência",
+            "11": "Em Ser - Arquivo de Títulos pendentes",
+            "12": "Abatimento Concedido",
+            "13": "Abatimento Cancelado",
+            "14": "Vencimento Alterado",
+            "15": "Liquidação em Cartório",
+            "16": "Título Pago em Cheque – Vinculado",
+            "17": "Liquidação após baixa ou Título não registrado",
+            "18": "Acerto de Depositária (sem motivo)",
+            "19": "Confirmação Receb. Inst. de Protesto",
+            "20": "Confirmação Recebimento Instrução Sustação de Protesto",
+            "21": "Acerto do Controle do Participante",
+            "22": "Título Com Pagamento Cancelado",
+            "23": "Entrada do Título em Cartório",
+            "24": "Entrada rejeitada por CEP Irregular",
+            "27": "Baixa Rejeitada",
+            "28": "Débito de tarifas/custas",
+            "30": "Alteração de Outros Dados Rejeitados",
+            "32": "Instrução Rejeitada",
+            "33": "Confirmação Pedido Alteração Outros Dados",
+            "34": "Retirado de Cartório e Manutenção Carteira",
+            "35": "Desagendamento do débito automático",
+            "40": "Estorno de pagamento",
+            "55": "Sustado judicial",
+            "68": "Acerto dos dados do rateio de Crédito",
+            "69": "Cancelamento dos dados do rateio"
+         },
+         "detalhe": {
+            "zeros01": {
+               "pos": [
+                  18,
+                  20
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)",
+               "default": 0
+            },
+            "zeros02": {
+               "pos": [
+                  21,
+                  21
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": 0
+            },
+            "carteira": {
+               "pos": [
+                  22,
+                  24
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "agencia": {
+               "pos": [
+                  25,
+                  29
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "conta": {
+               "pos": [
+                  30,
+                  36
+               ],
+               "type": "number",
+               "size": 7,
+               "picture": "9(7)"
+            },
+            "conta_dac": {
+               "pos": [
+                  37,
+                  37
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "zeros03": {
+               "pos": [
+                  63,
+                  70
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "nosso_numero": {
+               "pos": [
+                  71,
+                  82
+               ],
+               "type": "number",
+               "size": 12,
+               "picture": "9(12)"
+            },
+            "uso_banco01": {
+               "pos": [
+                  83,
+                  92
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "uso_banco02": {
+               "pos": [
+                  93,
+                  104
+               ],
+               "type": "number",
+               "size": 12,
+               "picture": "9(12)"
+            },
+            "indicador_rateio": {
+               "pos": [
+                  105,
+                  105
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "zeros04": {
+               "pos": [
+                  106,
+                  107
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "carteira_cod": {
+               "pos": [
+                  108,
+                  108
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "nosso_numero_dup": {
+               "pos": [
+                  127,
+                  146
+               ],
+               "type": "number",
+               "size": 20,
+               "picture": "9(20)"
+            },
+            "valor_outras_despesas": {
+               "pos": [
+                  202,
+                  214
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_mora_multa": {
+               "pos": [
+                  267,
+                  279
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_outros_creditos": {
+               "pos": [
+                  280,
+                  292
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "brancos01": {
+               "pos": [
+                  293,
+                  294
+               ],
+               "type": "alfa",
+               "size": 2,
+               "picture": "X(2)"
+            },
+            "motivo_ocorrencia": {
+               "pos": [
+                  295,
+                  295
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "data_credito": {
+               "pos": [
+                  296,
+                  301
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(6)"
+            },
+            "origem_pagamento": {
+               "pos": [
+                  302,
+                  304
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(3)"
+            },
+            "brancos02": {
+               "pos": [
+                  305,
+                  314
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "codigo_banco": {
+               "pos": [
+                  315,
+                  318
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(4)"
+            },
+            "motivo_rejeicao": {
+               "pos": [
+                  319,
+                  328
+               ],
+               "type": "number",
+               "size": 10,
+               "picture": "9(10)"
+            },
+            "brancos03": {
+               "pos": [
+                  329,
+                  368
+               ],
+               "type": "alfa",
+               "size": 40,
+               "picture": "X(40)"
+            },
+            "numero_cartorio": {
+               "pos": [
+                  369,
+                  370
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "numero_protocolo": {
+               "pos": [
+                  371,
+                  380
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "brancos04": {
+               "pos": [
+                  381,
+                  394
+               ],
+               "type": "alfa",
+               "size": 14,
+               "picture": "X(14)"
+            }
+         },
+         "header_arquivo": {
+            "codigo_cedente": {
+               "pos": [
+                  27,
+                  46
+               ],
+               "type": "number",
+               "size": 20,
+               "picture": "9(20)"
+            },
+            "zeros01": {
+               "pos": [
+                  101,
+                  108
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)",
+               "default": 0
+            },
+            "numero_aviso_bancario": {
+               "pos": [
+                  109,
+                  113
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(5)"
+            },
+            "brancos01": {
+               "pos": [
+                  114,
+                  379
+               ],
+               "type": "alfa",
+               "size": 266,
+               "picture": "X(266)",
+               "default": ""
+            },
+            "data_de_credito": {
+               "pos": [
+                  380,
+                  385
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(6)"
+            },
+            "brancos02": {
+               "pos": [
+                  386,
+                  394
+               ],
+               "type": "alfa",
+               "size": 9,
+               "picture": "X(9)",
+               "default": ""
+            },
+            "numero_sequencial": {
+               "pos": [
+                  395,
+                  400
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)",
+               "default": 1
+            }
+         },
+         "trailer_arquivo": {
+            "brancos01": {
+               "pos": [
+                  8,
+                  394
+               ],
+               "type": "alfa",
+               "size": 387,
+               "picture": "X(387)"
+            }
+         }
+      }
+   },
+   "341": {
+      "retorno": {
+         "codigo_ocorrencia": {
+            "2": "ENTRADA CONFIRMADA COM POSSIBILIDADE DE MENSAGEM (NOTA 20 – TABELA 10) ",
+            "3": "ENTRADA REJEITADA (NOTA 20 - TABELA 1)",
+            "4": "ALTERAÇÃO DE DADOS - NOVA ENTRADA OU ALTERAÇÃO/EXCLUSÃO DE DADOS ACATADA ",
+            "5": "ALTERAÇÃO DE DADOS – BAIXA",
+            "6": "LIQUIDAÇÃO NORMAL ",
+            "7": "LIQUIDAÇÃO PARCIAL – COBRANÇA INTELIGENTE (B2B)",
+            "8": "LIQUIDAÇÃO EM CARTÓRIO ",
+            "9": "BAIXA SIMPLES",
+            "10": "BAIXA POR TER SIDO LIQUIDADO ",
+            "11": "EM SER (SÓ NO RETORNO MENSAL)",
+            "12": "ABATIMENTO CONCEDIDO ",
+            "13": "ABATIMENTO CANCELADO",
+            "14": "VENCIMENTO ALTERADO ",
+            "15": "BAIXAS REJEITADAS (NOTA 20 - TABELA 4)",
+            "16": "INSTRUÇÕES REJEITADAS (NOTA 20 - TABELA 3) ",
+            "17": "ALTERAÇÃO/EXCLUSÃO DE DADOS REJEITADOS (NOTA 20 - TABELA 2)",
+            "18": "COBRANÇA CONTRATUAL - INSTRUÇÕES/ALTERAÇÕES REJEITADAS/PENDENTES (NOTA 20 - TABELA 5) ",
+            "19": "CONFIRMA RECEBIMENTO DE INSTRUÇÃO DE PROTESTO",
+            "20": "CONFIRMA RECEBIMENTO DE INSTRUÇÃO DE SUSTAÇÃO DE PROTESTO /TARIFA",
+            "21": "CONFIRMA RECEBIMENTO DE INSTRUÇÃO DE NÃO PROTESTAR",
+            "23": "TÍTULO ENVIADO A CARTÓRIO/TARIFA",
+            "24": "INSTRUÇÃO DE PROTESTO REJEITADA / SUSTADA / PENDENTE (NOTA 20 - TABELA 7)",
+            "25": "ALEGAÇÕES DO SACADO (NOTA 20 - TABELA 6)",
+            "26": "TARIFA DE AVISO DE COBRANÇA",
+            "27": "TARIFA DE EXTRATO POSIÇÃO (B40X)",
+            "28": "TARIFA DE RELAÇÃO DAS LIQUIDAÇÕES",
+            "29": "TARIFA DE MANUTENÇÃO DE TÍTULOS VENCIDOS",
+            "30": "DÉBITO MENSAL DE TARIFAS (PARA ENTRADAS E BAIXAS)",
+            "32": "BAIXA POR TER SIDO PROTESTADO",
+            "33": "CUSTAS DE PROTESTO",
+            "34": "CUSTAS DE SUSTAÇÃO",
+            "35": "CUSTAS DE CARTÓRIO DISTRIBUIDOR",
+            "36": "CUSTAS DE EDITAL",
+            "37": "TARIFA DE EMISSÃO DE BOLETO/TARIFA DE ENVIO DE DUPLICATA",
+            "38": "TARIFA DE INSTRUÇÃO",
+            "39": "TARIFA DE OCORRÊNCIAS",
+            "40": "TARIFA MENSAL DE EMISSÃO DE BOLETO/TARIFA MENSAL DE ENVIO DE DUPLICATA",
+            "41": "DÉBITO MENSAL DE TARIFAS – EXTRATO DE POSIÇÃO (B4EP/B4OX)",
+            "42": "DÉBITO MENSAL DE TARIFAS – OUTRAS INSTRUÇÕES",
+            "43": "DÉBITO MENSAL DE TARIFAS – MANUTENÇÃO DE TÍTULOS VENCIDOS",
+            "44": "DÉBITO MENSAL DE TARIFAS – OUTRAS OCORRÊNCIAS",
+            "45": "DÉBITO MENSAL DE TARIFAS – PROTESTO",
+            "46": "DÉBITO MENSAL DE TARIFAS – SUSTAÇÃO DE PROTESTO",
+            "47": "BAIXA COM TRANSFERÊNCIA PARA DESCONTO",
+            "48": "CUSTAS DE SUSTAÇÃO JUDICIAL",
+            "51": "TARIFA MENSAL REF A ENTRADAS BANCOS CORRESPONDENTES NA CARTEIRA",
+            "52": "TARIFA MENSAL BAIXAS NA CARTEIRA",
+            "53": "TARIFA MENSAL BAIXAS EM BANCOS CORRESPONDENTES NA CARTEIRA",
+            "54": "TARIFA MENSAL DE LIQUIDAÇÕES NA CARTEIRA",
+            "55": "TARIFA MENSAL DE LIQUIDAÇÕES EM BANCOS CORRESPONDENTES NA CARTEIRA",
+            "56": "CUSTAS DE IRREGULARIDADE",
+            "57": "INSTRUÇÃO CANCELADA (NOTA 20 – TABELA 8)",
+            "59": "BAIXA POR CRÉDITO EM C/C ATRAVÉS DO SISPAG",
+            "60": "ENTRADA REJEITADA CARNÊ (NOTA 20 – TABELA 1)",
+            "61": "TARIFA EMISSÃO AVISO DE MOVIMENTAÇÃO DE TÍTULOS (2154)",
+            "62": "DÉBITO MENSAL DE TARIFA - AVISO DE MOVIMENTAÇÃO DE TÍTULOS (2154)",
+            "63": "TÍTULO SUSTADO JUDICIALMENTE",
+            "64": "ENTRADA CONFIRMADA COM RATEIO DE CRÉDITO",
+            "69": "CHEQUE DEVOLVIDO (NOTA 20 - TABELA 9)",
+            "71": "ENTRADA REGISTRADA, AGUARDANDO AVALIAÇÃO",
+            "72": "BAIXA POR CRÉDITO EM C/C ATRAVÉS DO SISPAG SEM TÍTULO CORRESPONDENTE",
+            "73": "CONFIRMAÇÃO DE ENTRADA NA COBRANÇA SIMPLES – ENTRADA NÃO ACEITA NA COBRANÇA CONTRATUAL",
+            "76": "CHEQUE COMPENSADO"
+         },
+         "detalhe": {
+            "agencia": {
+               "pos": [
+                  18,
+                  21
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(04)"
+            },
+            "zeros01": {
+               "pos": [
+                  22,
+                  23
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)",
+               "default": "00"
+            },
+            "conta": {
+               "pos": [
+                  24,
+                  28
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(05)"
+            },
+            "dac": {
+               "pos": [
+                  29,
+                  29
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "brancos01": {
+               "pos": [
+                  30,
+                  37
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)"
+            },
+            "nosso_numero": {
+               "pos": [
+                  63,
+                  70
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "brancos02": {
+               "pos": [
+                  71,
+                  82
+               ],
+               "type": "alfa",
+               "size": 12,
+               "picture": "X(12)"
+            },
+            "carteira": {
+               "pos": [
+                  83,
+                  85
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(03)"
+            },
+            "nosso_numero_dup": {
+               "pos": [
+                  86,
+                  93
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "dac_nosso_numero": {
+               "pos": [
+                  94,
+                  94
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "brancos03": {
+               "pos": [
+                  95,
+                  107
+               ],
+               "type": "alfa",
+               "size": 13,
+               "picture": "X(13)"
+            },
+            "carteira_cod": {
+               "pos": [
+                  108,
+                  108
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(01)"
+            },
+            "nosso_numero_dup2": {
+               "pos": [
+                  127,
+                  134
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "brancos04": {
+               "pos": [
+                  135,
+                  146
+               ],
+               "type": "alfa",
+               "size": 12,
+               "picture": "X(12)"
+            },
+            "brancos05": {
+               "pos": [
+                  189,
+                  214
+               ],
+               "type": "alfa",
+               "size": 26,
+               "picture": "X(26)"
+            },
+            "valor_mora_multa": {
+               "pos": [
+                  267,
+                  279
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_outros_creditos": {
+               "pos": [
+                  280,
+                  292
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "boleto_dda": {
+               "pos": [
+                  293,
+                  293
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(01)"
+            },
+            "brancos06": {
+               "pos": [
+                  294,
+                  295
+               ],
+               "type": "alfa",
+               "size": 2,
+               "picture": "X(02)"
+            },
+            "data_credito": {
+               "pos": [
+                  296,
+                  301
+               ],
+               "type": "alfa",
+               "size": 6,
+               "picture": "X(06)"
+            },
+            "instr_cancelada": {
+               "pos": [
+                  302,
+                  305
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(04)"
+            },
+            "brancos07": {
+               "pos": [
+                  306,
+                  311
+               ],
+               "type": "alfa",
+               "size": 6,
+               "picture": "X(06)"
+            },
+            "zeros02": {
+               "pos": [
+                  312,
+                  324
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(13)"
+            },
+            "nome_do_sacado": {
+               "pos": [
+                  325,
+                  354
+               ],
+               "type": "alfa",
+               "size": 30,
+               "picture": "X(30)"
+            },
+            "brancos08": {
+               "pos": [
+                  355,
+                  377
+               ],
+               "type": "alfa",
+               "size": 23,
+               "picture": "X(23)"
+            },
+            "erros": {
+               "pos": [
+                  378,
+                  385
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)"
+            },
+            "brancos09": {
+               "pos": [
+                  386,
+                  392
+               ],
+               "type": "alfa",
+               "size": 7,
+               "picture": "X(07)"
+            },
+            "codigo_liquidacao": {
+               "pos": [
+                  393,
+                  394
+               ],
+               "type": "alfa",
+               "size": 2,
+               "picture": "X(02)"
+            }
+         },
+         "header_arquivo": {
+            "cobranca": {
+               "pos": [
+                  27,
+                  30
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(04)"
+            },
+            "zeros01": {
+               "pos": [
+                  31,
+                  32
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)",
+               "default": "00"
+            },
+            "conta": {
+               "pos": [
+                  33,
+                  37
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(05)"
+            },
+            "dac": {
+               "pos": [
+                  38,
+                  38
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "brancos01": {
+               "pos": [
+                  39,
+                  46
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)",
+               "default": ""
+            },
+            "densidade": {
+               "pos": [
+                  101,
+                  105
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(05)"
+            },
+            "unidade_de_densid": {
+               "pos": [
+                  106,
+                  108
+               ],
+               "type": "alfa",
+               "size": 3,
+               "picture": "X(03)",
+               "default": "BPI"
+            },
+            "n_seq_arquivo_ret": {
+               "pos": [
+                  109,
+                  113
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(05)"
+            },
+            "data_de_credito": {
+               "pos": [
+                  114,
+                  119
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            },
+            "brancos02": {
+               "pos": [
+                  120,
+                  394
+               ],
+               "type": "alfa",
+               "size": 275,
+               "picture": "X(275)",
+               "default": ""
+            },
+            "numero_sequencial": {
+               "pos": [
+                  395,
+                  400
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)",
+               "default": 1
+            }
+         },
+         "trailer_arquivo": {
+            "brancos01": {
+               "pos": [
+                  8,
+                  17
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "qtdede_titulos": {
+               "pos": [
+                  18,
+                  25
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "valor_total": {
+               "pos": [
+                  26,
+                  39
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(12)V9(2)",
+               "precision": 2
+            },
+            "aviso_bancario": {
+               "pos": [
+                  40,
+                  47
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)"
+            },
+            "brancos02": {
+               "pos": [
+                  48,
+                  57
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "qtdede_titulos_dup": {
+               "pos": [
+                  58,
+                  65
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "valor_total_dup": {
+               "pos": [
+                  66,
+                  79
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(12)V9(2)",
+               "precision": 2
+            },
+            "aviso_bancario_dup": {
+               "pos": [
+                  80,
+                  87
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)"
+            },
+            "brancos03": {
+               "pos": [
+                  88,
+                  177
+               ],
+               "type": "alfa",
+               "size": 90,
+               "picture": "X(90)"
+            },
+            "qtdede_titulos_dup2": {
+               "pos": [
+                  178,
+                  185
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "valor_total_dup2": {
+               "pos": [
+                  186,
+                  199
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(12)V9(2) NOTA 21",
+               "precision": 2
+            },
+            "aviso_bancario_dup2": {
+               "pos": [
+                  200,
+                  207
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)"
+            },
+            "controle_do_arquivo": {
+               "pos": [
+                  208,
+                  212
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(05)"
+            },
+            "qtde_de_detalhes": {
+               "pos": [
+                  213,
+                  220
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "vlr_total_informado": {
+               "pos": [
+                  221,
+                  234
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(12)V9(2)",
+               "precision": 2
+            },
+            "brancos04": {
+               "pos": [
+                  235,
+                  394
+               ],
+               "type": "alfa",
+               "size": 160,
+               "picture": "X(160)"
+            }
+         }
+      }
+   },
+   "001": {
+      "retorno": {
+         "codigo_ocorrencia": {
+            "2": "Confirmação de Entrada de Título",
+            "3": "Comando recusado (Motivo indicado na posição 087/088)",
+            "5": "Liquidado sem registro (carteira 17-tipo4)",
+            "6": "Liquidação Normal",
+            "7": "Liquidação por Conta/Parcial",
+            "8": "Liquidação por Saldo",
+            "9": "Baixa de Titulo",
+            "10": "Baixa Solicitada",
+            "11": "Títulos em Ser (constara somente do arquivo de existência de cobrança, fornecido mediante solicitação do cliente)",
+            "12": "Abatimento Concedido",
+            "13": "Abatimento Cancelado",
+            "14": "Alteração de Vencimento do título",
+            "15": "Liquidação em Cartório",
+            "16": "Confirmação de alteração de juros de mora",
+            "19": "Confirmação de recebimento de instruções para protesto",
+            "20": "Débito em Conta",
+            "21": "Alteração do Nome do Sacado",
+            "22": "Alteração do Endereço do Sacado",
+            "23": "Indicação de encaminhamento a cartório",
+            "24": "Sustar Protesto",
+            "25": "Dispensar Juros de mora",
+            "26": "Alteração do número do título dado pelo Cedente (Seu número) – 10 e 15 posições",
+            "28": "Manutenção de titulo vencido",
+            "31": "Conceder desconto",
+            "32": "Não conceder desconto",
+            "33": "Retificar desconto",
+            "34": "Alterar data para desconto",
+            "35": "Cobrar Multa",
+            "36": "Dispensar Multa",
+            "37": "Dispensar Indexador",
+            "38": "Dispensar prazo limite para recebimento",
+            "39": "Alterar prazo limite para recebimento",
+            "41": "Alteração do número do controle do participante (25 posições)",
+            "42": "Alteração do número do documento do sacado (CNPJ/CPF)",
+            "44": "Título pago com cheque devolvido",
+            "46": "Título pago com cheque, aguardando compensação",
+            "72": "Alteração de tipo de cobrança (específico para títulos das carteiras 11 e 17)",
+            "73": "Confirmação de Instrução de Parâmetro de Pagamento Parcial",
+            "96": "Despesas de Protesto",
+            "97": "Despesas de Sustação de Protesto",
+            "98": "Débito de Custas Antecipadas"
+         },
+         "detalhe": {
+            "tipo_de_registro": {
+               "pos": [
+                  1,
+                  1
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)",
+               "default": "7"
+            },
+            "zeros01": {
+               "pos": [
+                  2,
+                  17
+               ],
+               "type": "number",
+               "size": 16,
+               "picture": "9(16)",
+               "default": 0
+            },
+            "agencia_cobradora": {
+               "pos": [
+                  18,
+                  21
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(04)"
+            },
+            "agencia_cobradora_dac": {
+               "pos": [
+                  22,
+                  22
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "conta_cedente": {
+               "pos": [
+                  23,
+                  30
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "conta_cedente_dac": {
+               "pos": [
+                  31,
+                  31
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(01)"
+            },
+            "convenio": {
+               "pos": [
+                  32,
+                  38
+               ],
+               "type": "number",
+               "size": 7,
+               "picture": "9(07)"
+            },
+            "controle_participante": {
+               "pos": [
+                  39,
+                  63
+               ],
+               "type": "alfa",
+               "size": 25,
+               "picture": "X(25)"
+            },
+            "nosso_numero": {
+               "pos": [
+                  64,
+                  80
+               ],
+               "type": "number",
+               "size": 17,
+               "picture": "9(17)"
+            },
+            "tipo_cobranca": {
+               "pos": [
+                  81,
+                  81
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "tipo_cobranca_especifico": {
+               "pos": [
+                  82,
+                  82
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "dias_calculo": {
+               "pos": [
+                  83,
+                  86
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(04)"
+            },
+            "natureza_recebimento": {
+               "pos": [
+                  87,
+                  88
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)"
+            },
+            "prefixo_titulo": {
+               "pos": [
+                  89,
+                  91
+               ],
+               "type": "alfa",
+               "size": 3,
+               "picture": "X(03)"
+            },
+            "variacao_carteira": {
+               "pos": [
+                  92,
+                  94
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(03)"
+            },
+            "conta_caucao": {
+               "pos": [
+                  95,
+                  95
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "taxa_desconto": {
+               "pos": [
+                  96,
+                  100
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(05)"
+            },
+            "taxa_iof": {
+               "pos": [
+                  101,
+                  105
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(05)"
+            },
+            "zeros02": {
+               "pos": [
+                  106,
+                  106
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": 0
+            },
+            "carteira": {
+               "pos": [
+                  107,
+                  108
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(2)"
+            },
+            "brancos01": {
+               "pos": [
+                  127,
+                  146
+               ],
+               "type": "alfa",
+               "size": 20,
+               "picture": "X(20)",
+               "default": ""
+            },
+            "data_credito": {
+               "pos": [
+                  176,
+                  181
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            },
+            "valor_tarifa": {
+               "pos": [
+                  182,
+                  188
+               ],
+               "type": "number",
+               "size": 7,
+               "picture": "9(5)V9(2)",
+               "precision": 2
+            },
+            "valor_outras_despesas": {
+               "pos": [
+                  189,
+                  201
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_juros_desconto": {
+               "pos": [
+                  202,
+                  214
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_juros": {
+               "pos": [
+                  267,
+                  279
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_outros_recebimentos": {
+               "pos": [
+                  280,
+                  292
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_abatimento_nao_aproveitado": {
+               "pos": [
+                  293,
+                  305
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_lancamento": {
+               "pos": [
+                  306,
+                  318
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "indicativo_debito_credito": {
+               "pos": [
+                  319,
+                  319
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "indicador_valor": {
+               "pos": [
+                  320,
+                  320
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "valor_ajuste": {
+               "pos": [
+                  321,
+                  332
+               ],
+               "type": "number",
+               "size": 12,
+               "picture": "9(10)V9(2)",
+               "precision": 2
+            },
+            "brancos02": {
+               "pos": [
+                  333,
+                  333
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": ""
+            },
+            "zeros03": {
+               "pos": [
+                  334,
+                  390
+               ],
+               "type": "number",
+               "size": 57,
+               "picture": "9(57)",
+               "default": 0
+            },
+            "indicativo_autorizacao_liquidacao_parcial": {
+               "pos": [
+                  391,
+                  391
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)"
+            },
+            "brancos03": {
+               "pos": [
+                  392,
+                  392
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)",
+               "default": ""
+            },
+            "codigo_liquidacao": {
+               "pos": [
+                  393,
+                  394
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)"
+            }
+         },
+         "header_arquivo": {
+            "codigo_cedente": {
+               "pos": [
+                  27,
+                  40
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(14)"
+            },
+            "zeros01": {
+               "pos": [
+                  41,
+                  46
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)",
+               "default": 0
+            },
+            "n_seq_arquivo_ret": {
+               "pos": [
+                  101,
+                  107
+               ],
+               "type": "number",
+               "size": 7,
+               "picture": "9(07)"
+            },
+            "brancos01": {
+               "pos": [
+                  108,
+                  149
+               ],
+               "type": "alfa",
+               "size": 42,
+               "picture": "X(042)",
+               "default": ""
+            },
+            "numero_convenio": {
+               "pos": [
+                  150,
+                  156
+               ],
+               "type": "number",
+               "size": 7,
+               "picture": "9(07)",
+               "default": 0
+            },
+            "brancos02": {
+               "pos": [
+                  157,
+                  394
+               ],
+               "type": "alfa",
+               "size": 238,
+               "picture": "X(238)",
+               "default": ""
+            },
+            "numero_sequencial": {
+               "pos": [
+                  395,
+                  400
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)",
+               "default": 1
+            }
+         },
+         "trailer_arquivo": {
+            "brancos01": {
+               "pos": [
+                  8,
+                  17
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "qtdede_titulos": {
+               "pos": [
+                  18,
+                  25
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "valor_total": {
+               "pos": [
+                  26,
+                  39
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(12)V9(2)",
+               "precision": 2
+            },
+            "aviso_bancario": {
+               "pos": [
+                  40,
+                  47
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)"
+            },
+            "brancos02": {
+               "pos": [
+                  48,
+                  57
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "qtdede_titulos_dup": {
+               "pos": [
+                  58,
+                  65
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "valor_total_dup": {
+               "pos": [
+                  66,
+                  79
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(12)V9(2)",
+               "precision": 2
+            },
+            "aviso_bancario_dup": {
+               "pos": [
+                  80,
+                  87
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)"
+            },
+            "brancos03": {
+               "pos": [
+                  88,
+                  97
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "qtdede_titulos_dup2": {
+               "pos": [
+                  98,
+                  105
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "valor_total_dup2": {
+               "pos": [
+                  106,
+                  119
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(12)V9(2)",
+               "precision": 2
+            },
+            "aviso_bancario_dup2": {
+               "pos": [
+                  120,
+                  127
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)"
+            },
+            "brancos04": {
+               "pos": [
+                  128,
+                  137
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "qtdede_titulos_dup3": {
+               "pos": [
+                  138,
+                  145
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "valor_total_dup3": {
+               "pos": [
+                  146,
+                  159
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(12)V9(2)",
+               "precision": 2
+            },
+            "aviso_bancario_dup3": {
+               "pos": [
+                  160,
+                  167
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)"
+            },
+            "brancos05": {
+               "pos": [
+                  168,
+                  217
+               ],
+               "type": "alfa",
+               "size": 50,
+               "picture": "X(50)"
+            },
+            "qtdede_titulos_dup4": {
+               "pos": [
+                  218,
+                  225
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "valor_total_dup4": {
+               "pos": [
+                  226,
+                  239
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(12)V9(2)",
+               "precision": 2
+            },
+            "aviso_bancario_dup4": {
+               "pos": [
+                  240,
+                  247
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)"
+            },
+            "brancos06": {
+               "pos": [
+                  248,
+                  394
+               ],
+               "type": "alfa",
+               "size": 147,
+               "picture": "X(147)"
+            }
+         }
+      }
+   },
+   "generic": {
+      "remessa": {
+         "detalhe": {
+            "tipo_registro": {
+               "pos": [
+                  1,
+                  1
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)",
+               "default": "1"
+            },
+            "codigo_inscricao": {
+               "pos": [
+                  2,
+                  3
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)"
+            },
+            "numero_inscricao": {
+               "pos": [
+                  4,
+                  17
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(14)"
+            },
+            "agencia": {
+               "pos": [
+                  18,
+                  21
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(04)"
+            },
+            "zeros01": {
+               "pos": [
+                  22,
+                  23
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)",
+               "default": "0"
+            },
+            "conta": {
+               "pos": [
+                  24,
+                  28
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(05)"
+            },
+            "conta_dv": {
+               "pos": [
+                  29,
+                  29
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "brancos01": {
+               "pos": [
+                  30,
+                  33
+               ],
+               "type": "alfa",
+               "size": 4,
+               "picture": "X(04)",
+               "default": ""
+            },
+            "codigo_instrucao": {
+               "pos": [
+                  34,
+                  37
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(04)"
+            },
+            "uso_empresa": {
+               "pos": [
+                  38,
+                  62
+               ],
+               "type": "alfa",
+               "size": 25,
+               "picture": "X(25)"
+            },
+            "nosso_numero": {
+               "pos": [
+                  63,
+                  70
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "qtde_moeda": {
+               "pos": [
+                  71,
+                  83
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(08)V9(5)",
+               "precision": 5
+            },
+            "numero_carteira": {
+               "pos": [
+                  84,
+                  86
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(03)"
+            },
+            "uso_banco": {
+               "pos": [
+                  87,
+                  107
+               ],
+               "type": "alfa",
+               "size": 21,
+               "picture": "X(21)"
+            },
+            "codigo_carteira": {
+               "pos": [
+                  108,
+                  108
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(01)"
+            },
+            "codigo_ocorrencia": {
+               "pos": [
+                  109,
+                  110
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)",
+               "default": "1"
+            },
+            "numero_documento": {
+               "pos": [
+                  111,
+                  120
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "vencimento": {
+               "pos": [
+                  121,
+                  126
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            },
+            "valor_titulo": {
+               "pos": [
+                  127,
+                  139
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "codigo_banco": {
+               "pos": [
+                  140,
+                  142
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(03)",
+               "default": "341"
+            },
+            "agencia_cobradora": {
+               "pos": [
+                  143,
+                  147
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(05)",
+               "default": "0"
+            },
+            "especie": {
+               "pos": [
+                  148,
+                  149
+               ],
+               "type": "alfa",
+               "size": 2,
+               "picture": "X(02)"
+            },
+            "aceite": {
+               "pos": [
+                  150,
+                  150
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(01)"
+            },
+            "data_emissao": {
+               "pos": [
+                  151,
+                  156
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            },
+            "instrucao1": {
+               "pos": [
+                  157,
+                  158
+               ],
+               "type": "alfa",
+               "size": 2,
+               "picture": "X(02)",
+               "default": "05"
+            },
+            "instrucao2": {
+               "pos": [
+                  159,
+                  160
+               ],
+               "type": "alfa",
+               "size": 2,
+               "picture": "X(02)",
+               "default": "20"
+            },
+            "juros_um_dia": {
+               "pos": [
+                  161,
+                  173
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "default": "0",
+               "precision": 2
+            },
+            "desconto_ate": {
+               "pos": [
+                  174,
+                  179
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)",
+               "default": "0"
+            },
+            "valor_desconto": {
+               "pos": [
+                  180,
+                  192
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "default": "0",
+               "precision": 2
+            },
+            "valor_iof": {
+               "pos": [
+                  193,
+                  205
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "default": "0",
+               "precision": 2
+            },
+            "abatimento": {
+               "pos": [
+                  206,
+                  218
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "default": "0",
+               "precision": 2
+            },
+            "sacado_codigo_inscricao": {
+               "pos": [
+                  219,
+                  220
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)"
+            },
+            "sacado_numero_inscricao": {
+               "pos": [
+                  221,
+                  234
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(14)"
+            },
+            "nome": {
+               "pos": [
+                  235,
+                  264
+               ],
+               "type": "alfa",
+               "size": 30,
+               "picture": "X(30)"
+            },
+            "brancos02": {
+               "pos": [
+                  265,
+                  274
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)",
+               "default": ""
+            },
+            "logradouro": {
+               "pos": [
+                  275,
+                  314
+               ],
+               "type": "alfa",
+               "size": 40,
+               "picture": "X(40)"
+            },
+            "bairro": {
+               "pos": [
+                  315,
+                  326
+               ],
+               "type": "alfa",
+               "size": 12,
+               "picture": "X(12)"
+            },
+            "cep": {
+               "pos": [
+                  327,
+                  334
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(08)"
+            },
+            "cidade": {
+               "pos": [
+                  335,
+                  349
+               ],
+               "type": "alfa",
+               "size": 15,
+               "picture": "X(15)"
+            },
+            "estado": {
+               "pos": [
+                  350,
+                  351
+               ],
+               "type": "alfa",
+               "size": 2,
+               "picture": "X(02)"
+            },
+            "sacador": {
+               "pos": [
+                  352,
+                  381
+               ],
+               "type": "alfa",
+               "size": 30,
+               "picture": "X(30)"
+            },
+            "brancos03": {
+               "pos": [
+                  382,
+                  385
+               ],
+               "type": "alfa",
+               "size": 4,
+               "picture": "X(04)",
+               "default": ""
+            },
+            "data_mora": {
+               "pos": [
+                  386,
+                  391
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)",
+               "default": "0"
+            },
+            "prazo": {
+               "pos": [
+                  392,
+                  393
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)",
+               "default": "0"
+            },
+            "brancos04": {
+               "pos": [
+                  394,
+                  394
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(01)",
+               "default": ""
+            },
+            "numero_sequencial": {
+               "pos": [
+                  395,
+                  400
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            }
+         },
+         "detalhe_multa": {
+            "tipo_registro": {
+               "pos": [
+                  1,
+                  1
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(1)",
+               "default": "2"
+            },
+            "codigo_multa": {
+               "pos": [
+                  2,
+                  2
+               ],
+               "type": "alfa",
+               "size": 1,
+               "picture": "X(1)"
+            },
+            "data_multa": {
+               "pos": [
+                  3,
+                  10
+               ],
+               "type": "number",
+               "size": 8,
+               "picture": "9(8)"
+            },
+            "valor_multa": {
+               "pos": [
+                  11,
+                  23
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "brancos01": {
+               "pos": [
+                  24,
+                  394
+               ],
+               "type": "alfa",
+               "size": 371,
+               "picture": "X(371)",
+               "default": ""
+            },
+            "numero_sequencial": {
+               "pos": [
+                  395,
+                  400
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(6)"
+            }
+         },
+         "header_arquivo": {
+            "tipo_registro": {
+               "pos": [
+                  1,
+                  1
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)",
+               "default": "0"
+            },
+            "tipo_operacao": {
+               "pos": [
+                  2,
+                  2
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)",
+               "default": "1"
+            },
+            "literal_remessa": {
+               "pos": [
+                  3,
+                  9
+               ],
+               "type": "alfa",
+               "size": 7,
+               "picture": "X(07)",
+               "default": "REMESSA"
+            },
+            "codigo_servico": {
+               "pos": [
+                  10,
+                  11
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)",
+               "default": "1"
+            },
+            "literal_servico": {
+               "pos": [
+                  12,
+                  26
+               ],
+               "type": "alfa",
+               "size": 15,
+               "picture": "X(15)",
+               "default": "COBRANCA"
+            },
+            "agencia": {
+               "pos": [
+                  27,
+                  30
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(04)"
+            },
+            "zeros01": {
+               "pos": [
+                  31,
+                  32
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)",
+               "default": "0"
+            },
+            "conta": {
+               "pos": [
+                  33,
+                  37
+               ],
+               "type": "number",
+               "size": 5,
+               "picture": "9(05)"
+            },
+            "conta_dv": {
+               "pos": [
+                  38,
+                  38
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "brancos01": {
+               "pos": [
+                  39,
+                  46
+               ],
+               "type": "alfa",
+               "size": 8,
+               "picture": "X(08)",
+               "default": ""
+            },
+            "nome_empresa": {
+               "pos": [
+                  47,
+                  76
+               ],
+               "type": "alfa",
+               "size": 30,
+               "picture": "X(30)"
+            },
+            "codigo_banco": {
+               "pos": [
+                  77,
+                  79
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(03)",
+               "default": "341"
+            },
+            "nome_banco": {
+               "pos": [
+                  80,
+                  94
+               ],
+               "type": "alfa",
+               "size": 15,
+               "picture": "X(15)"
+            },
+            "data_geracao": {
+               "pos": [
+                  95,
+                  100
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            },
+            "brancos02": {
+               "pos": [
+                  101,
+                  394
+               ],
+               "type": "alfa",
+               "size": 294,
+               "picture": "X(294)",
+               "default": ""
+            },
+            "numero_sequencial": {
+               "pos": [
+                  395,
+                  400
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)",
+               "default": "1"
+            }
+         },
+         "trailer_arquivo": {
+            "tipo_registro": {
+               "pos": [
+                  1,
+                  1
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)",
+               "default": "9"
+            },
+            "brancos01": {
+               "pos": [
+                  2,
+                  394
+               ],
+               "type": "alfa",
+               "size": 393,
+               "picture": "X(393)",
+               "default": ""
+            },
+            "numero_sequencial": {
+               "pos": [
+                  395,
+                  400
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            }
+         }
+      },
+      "retorno": {
+         "detalhe": {
+            "tipo_de_registro": {
+               "pos": [
+                  1,
+                  1
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)",
+               "default": "1"
+            },
+            "codigo_de_inscricao": {
+               "pos": [
+                  2,
+                  3
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)"
+            },
+            "numero_de_inscricao": {
+               "pos": [
+                  4,
+                  17
+               ],
+               "type": "number",
+               "size": 14,
+               "picture": "9(14)"
+            },
+            "uso_da_empresa": {
+               "pos": [
+                  38,
+                  62
+               ],
+               "type": "alfa",
+               "size": 25,
+               "picture": "X(25)"
+            },
+            "codigo_de_ocorrencia": {
+               "pos": [
+                  109,
+                  110
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)"
+            },
+            "data_de_ocorrencia": {
+               "pos": [
+                  111,
+                  116
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            },
+            "numero_do_documento": {
+               "pos": [
+                  117,
+                  126
+               ],
+               "type": "alfa",
+               "size": 10,
+               "picture": "X(10)"
+            },
+            "data_vencimento": {
+               "pos": [
+                  147,
+                  152
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            },
+            "valor_do_titulo": {
+               "pos": [
+                  153,
+                  165
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "codigo_do_banco": {
+               "pos": [
+                  166,
+                  168
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(03)"
+            },
+            "agencia_cobradora": {
+               "pos": [
+                  169,
+                  172
+               ],
+               "type": "number",
+               "size": 4,
+               "picture": "9(04)"
+            },
+            "agencia_cobradora_dac": {
+               "pos": [
+                  173,
+                  173
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)"
+            },
+            "especie": {
+               "pos": [
+                  174,
+                  175
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)"
+            },
+            "valor_tarifa": {
+               "pos": [
+                  176,
+                  188
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_iof": {
+               "pos": [
+                  215,
+                  227
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_abatimento": {
+               "pos": [
+                  228,
+                  240
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_desconto": {
+               "pos": [
+                  241,
+                  253
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "valor_principal": {
+               "pos": [
+                  254,
+                  266
+               ],
+               "type": "number",
+               "size": 13,
+               "picture": "9(11)V9(2)",
+               "precision": 2
+            },
+            "numero_sequencial": {
+               "pos": [
+                  395,
+                  400
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            }
+         },
+         "header_arquivo": {
+            "tipo_de_registro": {
+               "pos": [
+                  1,
+                  1
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)",
+               "default": "0"
+            },
+            "codigo_de_retorno": {
+               "pos": [
+                  2,
+                  2
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)",
+               "default": "2"
+            },
+            "literal_de_retorno": {
+               "pos": [
+                  3,
+                  9
+               ],
+               "type": "alfa",
+               "size": 7,
+               "picture": "X(07)"
+            },
+            "retorno_codigo_do_servico": {
+               "pos": [
+                  10,
+                  11
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)",
+               "default": "01"
+            },
+            "literal_de_servico": {
+               "pos": [
+                  12,
+                  26
+               ],
+               "type": "alfa",
+               "size": 15,
+               "picture": "X(15)"
+            },
+            "nome_da_empresa": {
+               "pos": [
+                  47,
+                  76
+               ],
+               "type": "alfa",
+               "size": 30,
+               "picture": "X(30)"
+            },
+            "codigo_do_banco": {
+               "pos": [
+                  77,
+                  79
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(03)"
+            },
+            "nome_do_banco": {
+               "pos": [
+                  80,
+                  94
+               ],
+               "type": "alfa",
+               "size": 15,
+               "picture": "X(15)"
+            },
+            "data_de_geracao": {
+               "pos": [
+                  95,
+                  100
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            }
+         },
+         "trailer_arquivo": {
+            "tipo_de_registro": {
+               "pos": [
+                  1,
+                  1
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)",
+               "default": "9"
+            },
+            "codigo_de_retorno": {
+               "pos": [
+                  2,
+                  2
+               ],
+               "type": "number",
+               "size": 1,
+               "picture": "9(01)",
+               "default": "2"
+            },
+            "codigo_de_servico": {
+               "pos": [
+                  3,
+                  4
+               ],
+               "type": "number",
+               "size": 2,
+               "picture": "9(02)",
+               "default": "01"
+            },
+            "codigo_do_banco": {
+               "pos": [
+                  5,
+                  7
+               ],
+               "type": "number",
+               "size": 3,
+               "picture": "9(03)"
+            },
+            "numero_sequencial": {
+               "pos": [
+                  395,
+                  400
+               ],
+               "type": "number",
+               "size": 6,
+               "picture": "9(06)"
+            }
+         }
+      }
+   }
+}
