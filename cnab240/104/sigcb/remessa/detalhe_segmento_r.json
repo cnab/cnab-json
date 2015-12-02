@@ -1,0 +1,12 @@
+{
+   "uso_exclusivo_febraban_02": {
+      "pos": [
+         18,
+         65
+      ],
+      "type": "number",
+      "size": 48,
+      "picture": "9(48)",
+      "default": "0"
+   }
+}

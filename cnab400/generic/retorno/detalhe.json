@@ -1,0 +1,180 @@
+{
+   "tipo_de_registro": {
+      "pos": [
+         1,
+         1
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)",
+      "default": "1"
+   },
+   "codigo_de_inscricao": {
+      "pos": [
+         2,
+         3
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(02)"
+   },
+   "numero_de_inscricao": {
+      "pos": [
+         4,
+         17
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(14)"
+   },
+   "uso_da_empresa": {
+      "pos": [
+         38,
+         62
+      ],
+      "type": "alfa",
+      "size": 25,
+      "picture": "X(25)"
+   },
+   "codigo_de_ocorrencia": {
+      "pos": [
+         109,
+         110
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(02)"
+   },
+   "data_de_ocorrencia": {
+      "pos": [
+         111,
+         116
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)"
+   },
+   "numero_do_documento": {
+      "pos": [
+         117,
+         126
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "data_vencimento": {
+      "pos": [
+         147,
+         152
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)"
+   },
+   "valor_do_titulo": {
+      "pos": [
+         153,
+         165
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "codigo_do_banco": {
+      "pos": [
+         166,
+         168
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(03)"
+   },
+   "agencia_cobradora": {
+      "pos": [
+         169,
+         172
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(04)"
+   },
+   "agencia_cobradora_dac": {
+      "pos": [
+         173,
+         173
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)"
+   },
+   "especie": {
+      "pos": [
+         174,
+         175
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(02)"
+   },
+   "valor_tarifa": {
+      "pos": [
+         176,
+         188
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_iof": {
+      "pos": [
+         215,
+         227
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_abatimento": {
+      "pos": [
+         228,
+         240
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_desconto": {
+      "pos": [
+         241,
+         253
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_principal": {
+      "pos": [
+         254,
+         266
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "numero_sequencial": {
+      "pos": [
+         395,
+         400
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)"
+   }
+}

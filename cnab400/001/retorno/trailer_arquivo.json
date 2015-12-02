@@ -1,0 +1,196 @@
+{
+   "brancos01": {
+      "pos": [
+         8,
+         17
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "qtdede_titulos": {
+      "pos": [
+         18,
+         25
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "valor_total": {
+      "pos": [
+         26,
+         39
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(12)V9(2)",
+      "precision": 2
+   },
+   "aviso_bancario": {
+      "pos": [
+         40,
+         47
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)"
+   },
+   "brancos02": {
+      "pos": [
+         48,
+         57
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "qtdede_titulos_dup": {
+      "pos": [
+         58,
+         65
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "valor_total_dup": {
+      "pos": [
+         66,
+         79
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(12)V9(2)",
+      "precision": 2
+   },
+   "aviso_bancario_dup": {
+      "pos": [
+         80,
+         87
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)"
+   },
+   "brancos03": {
+      "pos": [
+         88,
+         97
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "qtdede_titulos_dup2": {
+      "pos": [
+         98,
+         105
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "valor_total_dup2": {
+      "pos": [
+         106,
+         119
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(12)V9(2)",
+      "precision": 2
+   },
+   "aviso_bancario_dup2": {
+      "pos": [
+         120,
+         127
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)"
+   },
+   "brancos04": {
+      "pos": [
+         128,
+         137
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "qtdede_titulos_dup3": {
+      "pos": [
+         138,
+         145
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "valor_total_dup3": {
+      "pos": [
+         146,
+         159
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(12)V9(2)",
+      "precision": 2
+   },
+   "aviso_bancario_dup3": {
+      "pos": [
+         160,
+         167
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)"
+   },
+   "brancos05": {
+      "pos": [
+         168,
+         217
+      ],
+      "type": "alfa",
+      "size": 50,
+      "picture": "X(50)"
+   },
+   "qtdede_titulos_dup4": {
+      "pos": [
+         218,
+         225
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "valor_total_dup4": {
+      "pos": [
+         226,
+         239
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(12)V9(2)",
+      "precision": 2
+   },
+   "aviso_bancario_dup4": {
+      "pos": [
+         240,
+         247
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)"
+   },
+   "brancos06": {
+      "pos": [
+         248,
+         394
+      ],
+      "type": "alfa",
+      "size": 147,
+      "picture": "X(147)"
+   }
+}

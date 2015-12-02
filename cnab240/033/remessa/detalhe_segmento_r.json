@@ -1,0 +1,43 @@
+{
+   "codigo_desconto_02": {
+      "pos": [
+         18,
+         18
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": 0
+   },
+   "data_desconto_02": {
+      "pos": [
+         19,
+         26
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)",
+      "default": ""
+   },
+   "valor_desconto_02": {
+      "pos": [
+         27,
+         41
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "default": 0,
+      "precision": 2
+   },
+   "reservado_santander_01": {
+      "pos": [
+         42,
+         65
+      ],
+      "type": "alfa",
+      "size": 24,
+      "picture": "X(24)",
+      "default": ""
+   }
+}

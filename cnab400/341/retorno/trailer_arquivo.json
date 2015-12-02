@@ -1,0 +1,150 @@
+{
+   "brancos01": {
+      "pos": [
+         8,
+         17
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "qtdede_titulos": {
+      "pos": [
+         18,
+         25
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "valor_total": {
+      "pos": [
+         26,
+         39
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(12)V9(2)",
+      "precision": 2
+   },
+   "aviso_bancario": {
+      "pos": [
+         40,
+         47
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)"
+   },
+   "brancos02": {
+      "pos": [
+         48,
+         57
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "qtdede_titulos_dup": {
+      "pos": [
+         58,
+         65
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "valor_total_dup": {
+      "pos": [
+         66,
+         79
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(12)V9(2)",
+      "precision": 2
+   },
+   "aviso_bancario_dup": {
+      "pos": [
+         80,
+         87
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)"
+   },
+   "brancos03": {
+      "pos": [
+         88,
+         177
+      ],
+      "type": "alfa",
+      "size": 90,
+      "picture": "X(90)"
+   },
+   "qtdede_titulos_dup2": {
+      "pos": [
+         178,
+         185
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "valor_total_dup2": {
+      "pos": [
+         186,
+         199
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(12)V9(2) NOTA 21",
+      "precision": 2
+   },
+   "aviso_bancario_dup2": {
+      "pos": [
+         200,
+         207
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)"
+   },
+   "controle_do_arquivo": {
+      "pos": [
+         208,
+         212
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(05)"
+   },
+   "qtde_de_detalhes": {
+      "pos": [
+         213,
+         220
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "vlr_total_informado": {
+      "pos": [
+         221,
+         234
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(12)V9(2)",
+      "precision": 2
+   },
+   "brancos04": {
+      "pos": [
+         235,
+         394
+      ],
+      "type": "alfa",
+      "size": 160,
+      "picture": "X(160)"
+   }
+}

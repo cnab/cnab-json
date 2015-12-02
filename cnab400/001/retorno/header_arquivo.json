@@ -1,0 +1,70 @@
+{
+   "codigo_cedente": {
+      "pos": [
+         27,
+         40
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(14)"
+   },
+   "zeros01": {
+      "pos": [
+         41,
+         46
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)",
+      "default": 0
+   },
+   "n_seq_arquivo_ret": {
+      "pos": [
+         101,
+         107
+      ],
+      "type": "number",
+      "size": 7,
+      "picture": "9(07)"
+   },
+   "brancos01": {
+      "pos": [
+         108,
+         149
+      ],
+      "type": "alfa",
+      "size": 42,
+      "picture": "X(042)",
+      "default": ""
+   },
+   "numero_convenio": {
+      "pos": [
+         150,
+         156
+      ],
+      "type": "number",
+      "size": 7,
+      "picture": "9(07)",
+      "default": 0
+   },
+   "brancos02": {
+      "pos": [
+         157,
+         394
+      ],
+      "type": "alfa",
+      "size": 238,
+      "picture": "X(238)",
+      "default": ""
+   },
+   "numero_sequencial": {
+      "pos": [
+         395,
+         400
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)",
+      "default": 1
+   }
+}

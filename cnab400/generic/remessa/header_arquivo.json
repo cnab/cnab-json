@@ -1,0 +1,156 @@
+{
+   "tipo_registro": {
+      "pos": [
+         1,
+         1
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)",
+      "default": "0"
+   },
+   "tipo_operacao": {
+      "pos": [
+         2,
+         2
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)",
+      "default": "1"
+   },
+   "literal_remessa": {
+      "pos": [
+         3,
+         9
+      ],
+      "type": "alfa",
+      "size": 7,
+      "picture": "X(07)",
+      "default": "REMESSA"
+   },
+   "codigo_servico": {
+      "pos": [
+         10,
+         11
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(02)",
+      "default": "1"
+   },
+   "literal_servico": {
+      "pos": [
+         12,
+         26
+      ],
+      "type": "alfa",
+      "size": 15,
+      "picture": "X(15)",
+      "default": "COBRANCA"
+   },
+   "agencia": {
+      "pos": [
+         27,
+         30
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(04)"
+   },
+   "zeros01": {
+      "pos": [
+         31,
+         32
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(02)",
+      "default": "0"
+   },
+   "conta": {
+      "pos": [
+         33,
+         37
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(05)"
+   },
+   "conta_dv": {
+      "pos": [
+         38,
+         38
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)"
+   },
+   "brancos01": {
+      "pos": [
+         39,
+         46
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)",
+      "default": ""
+   },
+   "nome_empresa": {
+      "pos": [
+         47,
+         76
+      ],
+      "type": "alfa",
+      "size": 30,
+      "picture": "X(30)"
+   },
+   "codigo_banco": {
+      "pos": [
+         77,
+         79
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(03)",
+      "default": "341"
+   },
+   "nome_banco": {
+      "pos": [
+         80,
+         94
+      ],
+      "type": "alfa",
+      "size": 15,
+      "picture": "X(15)"
+   },
+   "data_geracao": {
+      "pos": [
+         95,
+         100
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)"
+   },
+   "brancos02": {
+      "pos": [
+         101,
+         394
+      ],
+      "type": "alfa",
+      "size": 294,
+      "picture": "X(294)",
+      "default": ""
+   },
+   "numero_sequencial": {
+      "pos": [
+         395,
+         400
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)",
+      "default": "1"
+   }
+}

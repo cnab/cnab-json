@@ -1,0 +1,61 @@
+{
+   "reservado_santander_01": {
+      "pos": [
+         34,
+         53
+      ],
+      "type": "alfa",
+      "size": 20,
+      "picture": "X(20)",
+      "default": ""
+   },
+   "codigo_transmissao": {
+      "pos": [
+         54,
+         68
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(15)"
+   },
+   "reservado_santander_02": {
+      "pos": [
+         69,
+         73
+      ],
+      "type": "alfa",
+      "size": 5,
+      "picture": "X(5)",
+      "default": ""
+   },
+   "mensagem1": {
+      "pos": [
+         104,
+         143
+      ],
+      "type": "alfa",
+      "size": 40,
+      "picture": "X(40)",
+      "default": ""
+   },
+   "mensagem2": {
+      "pos": [
+         144,
+         183
+      ],
+      "type": "alfa",
+      "size": 40,
+      "picture": "X(40)",
+      "default": ""
+   },
+   "reservado_santander_03": {
+      "pos": [
+         200,
+         240
+      ],
+      "type": "alfa",
+      "size": 41,
+      "picture": "X(41)",
+      "default": ""
+   }
+}

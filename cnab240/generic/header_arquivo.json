@@ -1,0 +1,237 @@
+{
+   "codigo_banco": {
+      "pos": [
+         1,
+         3
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)"
+   },
+   "lote_servico": {
+      "pos": [
+         4,
+         7
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(4)",
+      "default": "0000"
+   },
+   "tipo_registro": {
+      "pos": [
+         8,
+         8
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": "0"
+   },
+   "uso_exclusivo_febraban_01": {
+      "pos": [
+         9,
+         17
+      ],
+      "type": "alfa",
+      "size": 9,
+      "picture": "X(9)",
+      "default": ""
+   },
+   "codigo_inscricao": {
+      "pos": [
+         18,
+         18
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "numero_inscricao": {
+      "pos": [
+         19,
+         32
+      ],
+      "type": "number",
+      "size": 14,
+      "picture": "9(14)"
+   },
+   "codigo_convenio": {
+      "pos": [
+         33,
+         48
+      ],
+      "type": "number",
+      "size": 16,
+      "picture": "9(16)"
+   },
+   "uso_exclusivo_banco_01": {
+      "pos": [
+         49,
+         52
+      ],
+      "type": "alfa",
+      "size": 4,
+      "picture": "X(4)",
+      "default": ""
+   },
+   "agencia": {
+      "pos": [
+         53,
+         57
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "agencia_dv": {
+      "pos": [
+         58,
+         58
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "codigo_cedente": {
+      "pos": [
+         59,
+         70
+      ],
+      "type": "number",
+      "size": 12,
+      "picture": "9(12)"
+   },
+   "codigo_cedente_dv": {
+      "pos": [
+         71,
+         71
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "agencia_mais_cedente_dv": {
+      "pos": [
+         72,
+         72
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "nome_empresa": {
+      "pos": [
+         73,
+         102
+      ],
+      "type": "alfa",
+      "size": 30,
+      "picture": "X(30)"
+   },
+   "nome_banco": {
+      "pos": [
+         103,
+         132
+      ],
+      "type": "alfa",
+      "size": 30,
+      "picture": "X(30)"
+   },
+   "uso_exclusivo_febraban_02": {
+      "pos": [
+         133,
+         142
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)",
+      "default": ""
+   },
+   "codigo_remessa_retorno": {
+      "pos": [
+         143,
+         143
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "data_geracao": {
+      "pos": [
+         144,
+         151
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "hora_geracao": {
+      "pos": [
+         152,
+         157
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(6)"
+   },
+   "numero_sequencial_arquivo": {
+      "pos": [
+         158,
+         163
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(6)"
+   },
+   "versao_layout_arquivo": {
+      "pos": [
+         164,
+         166
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)",
+      "default": "030"
+   },
+   "densidade_gravacao_arquivo": {
+      "pos": [
+         167,
+         171
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)",
+      "default": "0"
+   },
+   "uso_reservado_banco": {
+      "pos": [
+         172,
+         191
+      ],
+      "type": "alfa",
+      "size": 20,
+      "picture": "X(20)",
+      "default": ""
+   },
+   "uso_reservado_empresa": {
+      "pos": [
+         192,
+         211
+      ],
+      "type": "alfa",
+      "size": 20,
+      "picture": "X(20)",
+      "default": "REMESSA-PRODUCAO"
+   },
+   "uso_exclusivo_febraban_03": {
+      "pos": [
+         212,
+         240
+      ],
+      "type": "alfa",
+      "size": 29,
+      "picture": "X(29)",
+      "default": ""
+   }
+}

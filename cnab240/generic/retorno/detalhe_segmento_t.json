@@ -1,0 +1,265 @@
+{
+   "codigo_banco": {
+      "pos": [
+         1,
+         3
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)"
+   },
+   "lote_servico": {
+      "pos": [
+         4,
+         7
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(4)"
+   },
+   "tipo_registro": {
+      "pos": [
+         8,
+         8
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "numero_sequencial_lote": {
+      "pos": [
+         9,
+         13
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "codigo_segmento": {
+      "pos": [
+         14,
+         14
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)"
+   },
+   "uso_exclusivo_febraban_01": {
+      "pos": [
+         15,
+         15
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)"
+   },
+   "codigo_movimento": {
+      "pos": [
+         16,
+         17
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "agencia_mantenedora": {
+      "pos": [
+         18,
+         22
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "agencia_dv": {
+      "pos": [
+         23,
+         23
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "codigo_cedente": {
+      "pos": [
+         24,
+         35
+      ],
+      "type": "number",
+      "size": 12,
+      "picture": "9(12)"
+   },
+   "codigo_cedente_dv": {
+      "pos": [
+         36,
+         36
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "agencia_dv_mais_cedente_dv": {
+      "pos": [
+         37,
+         37
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "nosso_numero": {
+      "pos": [
+         38,
+         57
+      ],
+      "type": "number",
+      "size": 20,
+      "picture": "9(20)"
+   },
+   "codigo_carteira": {
+      "pos": [
+         58,
+         58
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "numero_documento": {
+      "pos": [
+         59,
+         73
+      ],
+      "type": "alfa",
+      "size": 15,
+      "picture": "X(15)"
+   },
+   "data_vencimento": {
+      "pos": [
+         74,
+         81
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "valor_titulo": {
+      "pos": [
+         82,
+         96
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "numero_banco": {
+      "pos": [
+         97,
+         99
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)"
+   },
+   "agencia_cobradora": {
+      "pos": [
+         100,
+         104
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "agencia_cobradora_dac": {
+      "pos": [
+         105,
+         105
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "uso_empresa": {
+      "pos": [
+         106,
+         130
+      ],
+      "type": "alfa",
+      "size": 25,
+      "picture": "X(25)"
+   },
+   "codigo_moeda": {
+      "pos": [
+         131,
+         132
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "tipo_inscricao": {
+      "pos": [
+         133,
+         133
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "numero_inscricao": {
+      "pos": [
+         134,
+         148
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(15)"
+   },
+   "nome_sacado": {
+      "pos": [
+         149,
+         188
+      ],
+      "type": "alfa",
+      "size": 40,
+      "picture": "X(40)"
+   },
+   "uso_exclusivo_febraban_02": {
+      "pos": [
+         189,
+         198
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "valor_tarifa": {
+      "pos": [
+         199,
+         213
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "identificacao_rejeicao": {
+      "pos": [
+         214,
+         223
+      ],
+      "type": "number",
+      "size": 10,
+      "picture": "9(10)"
+   },
+   "uso_exclusivo_febraban": {
+      "pos": [
+         224,
+         240
+      ],
+      "type": "alfa",
+      "size": 17,
+      "picture": "X(17)"
+   }
+}

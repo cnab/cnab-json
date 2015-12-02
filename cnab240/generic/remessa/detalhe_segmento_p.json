@@ -1,0 +1,417 @@
+{
+   "codigo_banco": {
+      "pos": [
+         1,
+         3
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)"
+   },
+   "lote_servico": {
+      "pos": [
+         4,
+         7
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(4)"
+   },
+   "tipo_registro": {
+      "pos": [
+         8,
+         8
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": "3"
+   },
+   "numero_sequencial_lote": {
+      "pos": [
+         9,
+         13
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "codigo_segmento": {
+      "pos": [
+         14,
+         14
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": "P"
+   },
+   "uso_exclusivo_febraban_01": {
+      "pos": [
+         15,
+         15
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": ""
+   },
+   "codigo_ocorrencia": {
+      "pos": [
+         16,
+         17
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "agencia": {
+      "pos": [
+         18,
+         22
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "agencia_dv": {
+      "pos": [
+         23,
+         23
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "codigo_cedente": {
+      "pos": [
+         24,
+         35
+      ],
+      "type": "number",
+      "size": 12,
+      "picture": "9(12)"
+   },
+   "codigo_cedente_dv": {
+      "pos": [
+         36,
+         36
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "agencia_mais_cedente_dv": {
+      "pos": [
+         37,
+         37
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "uso_exclusivo_banco_01": {
+      "pos": [
+         38,
+         46
+      ],
+      "type": "alfa",
+      "size": 9,
+      "picture": "X(9)",
+      "default": ""
+   },
+   "nosso_numero": {
+      "pos": [
+         47,
+         57
+      ],
+      "type": "number",
+      "size": 11,
+      "picture": "9(11)"
+   },
+   "codigo_carteira": {
+      "pos": [
+         58,
+         58
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "forma_cadastramento": {
+      "pos": [
+         59,
+         59
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "tipo_documento": {
+      "pos": [
+         60,
+         60
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": "2"
+   },
+   "identificacao_emissao": {
+      "pos": [
+         61,
+         61
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": "2"
+   },
+   "identificacao_distribuicao": {
+      "pos": [
+         62,
+         62
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": "2"
+   },
+   "numero_documento": {
+      "pos": [
+         63,
+         73
+      ],
+      "type": "alfa",
+      "size": 11,
+      "picture": "X(11)"
+   },
+   "uso_exclusivo_banco_02": {
+      "pos": [
+         74,
+         77
+      ],
+      "type": "alfa",
+      "size": 4,
+      "picture": "X(4)",
+      "default": ""
+   },
+   "vencimento": {
+      "pos": [
+         78,
+         85
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "valor_titulo": {
+      "pos": [
+         86,
+         100
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "agencia_cobradora": {
+      "pos": [
+         101,
+         105
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)",
+      "default": "0"
+   },
+   "agencia_cobradora_dv": {
+      "pos": [
+         106,
+         106
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": "0"
+   },
+   "especie": {
+      "pos": [
+         107,
+         108
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "aceite": {
+      "pos": [
+         109,
+         109
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)"
+   },
+   "data_emissao": {
+      "pos": [
+         110,
+         117
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "codigo_juros_mora": {
+      "pos": [
+         118,
+         118
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)"
+   },
+   "data_juros_mora": {
+      "pos": [
+         119,
+         126
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "valor_juros_mora": {
+      "pos": [
+         127,
+         141
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "codigo_desconto_1": {
+      "pos": [
+         142,
+         142
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "data_desconto_1": {
+      "pos": [
+         143,
+         150
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "valor_desconto_1": {
+      "pos": [
+         151,
+         165
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "valor_iof": {
+      "pos": [
+         166,
+         180
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "default": "0",
+      "precision": 2
+   },
+   "valor_abatimento": {
+      "pos": [
+         181,
+         195
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "uso_empresa": {
+      "pos": [
+         196,
+         220
+      ],
+      "type": "alfa",
+      "size": 25,
+      "picture": "X(25)"
+   },
+   "codigo_protesto": {
+      "pos": [
+         221,
+         221
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "prazo_protesto": {
+      "pos": [
+         222,
+         223
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "codigo_baixa": {
+      "pos": [
+         224,
+         224
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "prazo_baixa": {
+      "pos": [
+         225,
+         227
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)"
+   },
+   "codigo_moeda": {
+      "pos": [
+         228,
+         229
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)",
+      "default": "09"
+   },
+   "uso_exclusivo_banco_03": {
+      "pos": [
+         230,
+         239
+      ],
+      "type": "number",
+      "size": 10,
+      "picture": "9(10)",
+      "default": "0"
+   },
+   "uso_exclusivo_febraban_02": {
+      "pos": [
+         240,
+         240
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": ""
+   }
+}

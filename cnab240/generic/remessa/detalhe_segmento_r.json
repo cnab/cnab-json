@@ -1,0 +1,146 @@
+{
+   "codigo_banco": {
+      "pos": [
+         1,
+         3
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)"
+   },
+   "lote_servico": {
+      "pos": [
+         4,
+         7
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(4)"
+   },
+   "tipo_registro": {
+      "pos": [
+         8,
+         8
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": "3"
+   },
+   "numero_sequencial_lote": {
+      "pos": [
+         9,
+         13
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "codigo_segmento": {
+      "pos": [
+         14,
+         14
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": "R"
+   },
+   "uso_exclusivo_febraban_01": {
+      "pos": [
+         15,
+         15
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": ""
+   },
+   "codigo_ocorrencia": {
+      "pos": [
+         16,
+         17
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "uso_exclusivo_febraban_02": {
+      "pos": [
+         18,
+         65
+      ],
+      "type": "alfa",
+      "size": 48,
+      "picture": "X(48)",
+      "default": ""
+   },
+   "codigo_multa": {
+      "pos": [
+         66,
+         66
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "data_multa": {
+      "pos": [
+         67,
+         74
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "valor_multa": {
+      "pos": [
+         75,
+         89
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "informacao_sacado": {
+      "pos": [
+         90,
+         99
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)",
+      "default": ""
+   },
+   "mensagem_3": {
+      "pos": [
+         100,
+         139
+      ],
+      "type": "alfa",
+      "size": 40,
+      "picture": "X(40)",
+      "default": ""
+   },
+   "mensagem_4": {
+      "pos": [
+         140,
+         179
+      ],
+      "type": "alfa",
+      "size": 40,
+      "picture": "X(40)",
+      "default": ""
+   },
+   "uso_exclusivo_febraban_03": {
+      "pos": [
+         180,
+         240
+      ],
+      "type": "alfa",
+      "size": 61,
+      "picture": "X(61)",
+      "default": ""
+   }
+}

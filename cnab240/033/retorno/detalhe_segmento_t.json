@@ -1,0 +1,203 @@
+{
+   "agencia_mantenedora": {
+      "pos": [
+         18,
+         21
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(4)"
+   },
+   "agencia_dv": {
+      "pos": [
+         22,
+         22
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "conta": {
+      "pos": [
+         23,
+         31
+      ],
+      "type": "number",
+      "size": 9,
+      "picture": "9(9)"
+   },
+   "conta_dv": {
+      "pos": [
+         32,
+         32
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "uso_exclusivo_banco_01": {
+      "pos": [
+         33,
+         40
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(8)"
+   },
+   "nosso_numero": {
+      "pos": [
+         41,
+         53
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(13)"
+   },
+   "codigo_carteira": {
+      "pos": [
+         54,
+         54
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "numero_documento": {
+      "pos": [
+         55,
+         69
+      ],
+      "type": "alfa",
+      "size": 15,
+      "picture": "X(15)"
+   },
+   "data_vencimento": {
+      "pos": [
+         70,
+         77
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "valor_titulo": {
+      "pos": [
+         78,
+         92
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "numero_banco": {
+      "pos": [
+         93,
+         95
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)"
+   },
+   "agencia_cobradora": {
+      "pos": [
+         96,
+         99
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(4)"
+   },
+   "agencia_cobradora_dac": {
+      "pos": [
+         100,
+         100
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "uso_empresa": {
+      "pos": [
+         101,
+         125
+      ],
+      "type": "alfa",
+      "size": 25,
+      "picture": "X(25)"
+   },
+   "codigo_moeda": {
+      "pos": [
+         126,
+         127
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "tipo_inscricao": {
+      "pos": [
+         128,
+         128
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "numero_inscricao": {
+      "pos": [
+         129,
+         143
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(15)"
+   },
+   "nome_sacado": {
+      "pos": [
+         144,
+         183
+      ],
+      "type": "alfa",
+      "size": 40,
+      "picture": "X(40)"
+   },
+   "conta_cobranca": {
+      "pos": [
+         184,
+         193
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "valor_tarifa": {
+      "pos": [
+         194,
+         208
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "identificacao_rejeicao": {
+      "pos": [
+         209,
+         218
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "uso_exclusivo_banco_03": {
+      "pos": [
+         219,
+         240
+      ],
+      "type": "alfa",
+      "size": 22,
+      "picture": "X(22)",
+      "default": ""
+   }
+}

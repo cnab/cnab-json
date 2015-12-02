@@ -1,0 +1,350 @@
+{
+   "tipo_de_registro": {
+      "pos": [
+         1,
+         1
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)",
+      "default": "7"
+   },
+   "zeros01": {
+      "pos": [
+         2,
+         17
+      ],
+      "type": "number",
+      "size": 16,
+      "picture": "9(16)",
+      "default": 0
+   },
+   "agencia_cobradora": {
+      "pos": [
+         18,
+         21
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(04)"
+   },
+   "agencia_cobradora_dac": {
+      "pos": [
+         22,
+         22
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)"
+   },
+   "conta_cedente": {
+      "pos": [
+         23,
+         30
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "conta_cedente_dac": {
+      "pos": [
+         31,
+         31
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(01)"
+   },
+   "convenio": {
+      "pos": [
+         32,
+         38
+      ],
+      "type": "number",
+      "size": 7,
+      "picture": "9(07)"
+   },
+   "controle_participante": {
+      "pos": [
+         39,
+         63
+      ],
+      "type": "alfa",
+      "size": 25,
+      "picture": "X(25)"
+   },
+   "nosso_numero": {
+      "pos": [
+         64,
+         80
+      ],
+      "type": "number",
+      "size": 17,
+      "picture": "9(17)"
+   },
+   "tipo_cobranca": {
+      "pos": [
+         81,
+         81
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)"
+   },
+   "tipo_cobranca_especifico": {
+      "pos": [
+         82,
+         82
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)"
+   },
+   "dias_calculo": {
+      "pos": [
+         83,
+         86
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(04)"
+   },
+   "natureza_recebimento": {
+      "pos": [
+         87,
+         88
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(02)"
+   },
+   "prefixo_titulo": {
+      "pos": [
+         89,
+         91
+      ],
+      "type": "alfa",
+      "size": 3,
+      "picture": "X(03)"
+   },
+   "variacao_carteira": {
+      "pos": [
+         92,
+         94
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(03)"
+   },
+   "conta_caucao": {
+      "pos": [
+         95,
+         95
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)"
+   },
+   "taxa_desconto": {
+      "pos": [
+         96,
+         100
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(05)"
+   },
+   "taxa_iof": {
+      "pos": [
+         101,
+         105
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(05)"
+   },
+   "zeros02": {
+      "pos": [
+         106,
+         106
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": 0
+   },
+   "carteira": {
+      "pos": [
+         107,
+         108
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "brancos01": {
+      "pos": [
+         127,
+         146
+      ],
+      "type": "alfa",
+      "size": 20,
+      "picture": "X(20)",
+      "default": ""
+   },
+   "data_credito": {
+      "pos": [
+         176,
+         181
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)"
+   },
+   "valor_tarifa": {
+      "pos": [
+         182,
+         188
+      ],
+      "type": "number",
+      "size": 7,
+      "picture": "9(5)V9(2)",
+      "precision": 2
+   },
+   "valor_outras_despesas": {
+      "pos": [
+         189,
+         201
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_juros_desconto": {
+      "pos": [
+         202,
+         214
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_juros": {
+      "pos": [
+         267,
+         279
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_outros_recebimentos": {
+      "pos": [
+         280,
+         292
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_abatimento_nao_aproveitado": {
+      "pos": [
+         293,
+         305
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_lancamento": {
+      "pos": [
+         306,
+         318
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "indicativo_debito_credito": {
+      "pos": [
+         319,
+         319
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)"
+   },
+   "indicador_valor": {
+      "pos": [
+         320,
+         320
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)"
+   },
+   "valor_ajuste": {
+      "pos": [
+         321,
+         332
+      ],
+      "type": "number",
+      "size": 12,
+      "picture": "9(10)V9(2)",
+      "precision": 2
+   },
+   "brancos02": {
+      "pos": [
+         333,
+         333
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": ""
+   },
+   "zeros03": {
+      "pos": [
+         334,
+         390
+      ],
+      "type": "number",
+      "size": 57,
+      "picture": "9(57)",
+      "default": 0
+   },
+   "indicativo_autorizacao_liquidacao_parcial": {
+      "pos": [
+         391,
+         391
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "brancos03": {
+      "pos": [
+         392,
+         392
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": ""
+   },
+   "codigo_liquidacao": {
+      "pos": [
+         393,
+         394
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(02)"
+   }
+}

@@ -1,0 +1,202 @@
+{
+   "uso_exclusivo_caixa_01": {
+      "pos": [
+         50,
+         52
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)",
+      "default": "0"
+   },
+   "uso_exclusivo_banco_01": {
+      "pos": [
+         65,
+         71
+      ],
+      "type": "alfa",
+      "size": 7,
+      "picture": "X(7)",
+      "default": ""
+   },
+   "agencia": {
+      "pos": [
+         53,
+         57
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "agencia_dv": {
+      "pos": [
+         58,
+         58
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "codigo_cedente": {
+      "pos": [
+         59,
+         64
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(6)"
+   },
+   "uso_exclusivo_caixa_02": {
+      "pos": [
+         65,
+         71
+      ],
+      "type": "number",
+      "size": 7,
+      "picture": "9(7)",
+      "default": "0"
+   },
+   "uso_exclusivo_caixa_03": {
+      "pos": [
+         72,
+         72
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": "0"
+   },
+   "nome_empresa": {
+      "pos": [
+         73,
+         102
+      ],
+      "type": "alfa",
+      "size": 30,
+      "picture": "X(30)"
+   },
+   "nome_banco": {
+      "pos": [
+         103,
+         132
+      ],
+      "type": "alfa",
+      "size": 30,
+      "picture": "X(30)"
+   },
+   "uso_exclusivo_febraban_02": {
+      "pos": [
+         133,
+         142
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)",
+      "default": ""
+   },
+   "codigo_remessa_retorno": {
+      "pos": [
+         143,
+         143
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "data_geracao": {
+      "pos": [
+         144,
+         151
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "hora_geracao": {
+      "pos": [
+         152,
+         157
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(6)"
+   },
+   "numero_sequencial_arquivo": {
+      "pos": [
+         158,
+         163
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(6)"
+   },
+   "versao_layout_arquivo": {
+      "pos": [
+         164,
+         166
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)",
+      "default": "050"
+   },
+   "densidade_gravacao_arquivo": {
+      "pos": [
+         167,
+         171
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)",
+      "default": "0"
+   },
+   "uso_reservado_banco": {
+      "pos": [
+         172,
+         191
+      ],
+      "type": "alfa",
+      "size": 20,
+      "picture": "X(20)",
+      "default": ""
+   },
+   "uso_reservado_empresa": {
+      "pos": [
+         192,
+         211
+      ],
+      "type": "alfa",
+      "size": 20,
+      "picture": "X(20)",
+      "default": "REMESSA-PRODUCAO"
+   },
+   "versao_aplicativo_caixa": {
+      "pos": [
+         212,
+         215
+      ],
+      "type": "alfa",
+      "size": 4,
+      "picture": "X(4)",
+      "default": ""
+   },
+   "uso_exclusivo_febraban_03": {
+      "pos": [
+         216,
+         240
+      ],
+      "type": "alfa",
+      "size": 25,
+      "picture": "X(25)",
+      "default": ""
+   },
+   "codigo_convenio": {
+      "pos": [
+         33,
+         49
+      ],
+      "type": "number",
+      "size": 17,
+      "picture": "9(17)"
+   }
+}

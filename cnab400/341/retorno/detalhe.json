@@ -1,0 +1,257 @@
+{
+   "agencia": {
+      "pos": [
+         18,
+         21
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(04)"
+   },
+   "zeros01": {
+      "pos": [
+         22,
+         23
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(02)",
+      "default": "00"
+   },
+   "conta": {
+      "pos": [
+         24,
+         28
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(05)"
+   },
+   "dac": {
+      "pos": [
+         29,
+         29
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)"
+   },
+   "brancos01": {
+      "pos": [
+         30,
+         37
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)"
+   },
+   "nosso_numero": {
+      "pos": [
+         63,
+         70
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "brancos02": {
+      "pos": [
+         71,
+         82
+      ],
+      "type": "alfa",
+      "size": 12,
+      "picture": "X(12)"
+   },
+   "carteira": {
+      "pos": [
+         83,
+         85
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(03)"
+   },
+   "nosso_numero_dup": {
+      "pos": [
+         86,
+         93
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "dac_nosso_numero": {
+      "pos": [
+         94,
+         94
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)"
+   },
+   "brancos03": {
+      "pos": [
+         95,
+         107
+      ],
+      "type": "alfa",
+      "size": 13,
+      "picture": "X(13)"
+   },
+   "carteira_cod": {
+      "pos": [
+         108,
+         108
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(01)"
+   },
+   "nosso_numero_dup2": {
+      "pos": [
+         127,
+         134
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(08)"
+   },
+   "brancos04": {
+      "pos": [
+         135,
+         146
+      ],
+      "type": "alfa",
+      "size": 12,
+      "picture": "X(12)"
+   },
+   "brancos05": {
+      "pos": [
+         189,
+         214
+      ],
+      "type": "alfa",
+      "size": 26,
+      "picture": "X(26)"
+   },
+   "valor_mora_multa": {
+      "pos": [
+         267,
+         279
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_outros_creditos": {
+      "pos": [
+         280,
+         292
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "boleto_dda": {
+      "pos": [
+         293,
+         293
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(01)"
+   },
+   "brancos06": {
+      "pos": [
+         294,
+         295
+      ],
+      "type": "alfa",
+      "size": 2,
+      "picture": "X(02)"
+   },
+   "data_credito": {
+      "pos": [
+         296,
+         301
+      ],
+      "type": "alfa",
+      "size": 6,
+      "picture": "X(06)"
+   },
+   "instr_cancelada": {
+      "pos": [
+         302,
+         305
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(04)"
+   },
+   "brancos07": {
+      "pos": [
+         306,
+         311
+      ],
+      "type": "alfa",
+      "size": 6,
+      "picture": "X(06)"
+   },
+   "zeros02": {
+      "pos": [
+         312,
+         324
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(13)"
+   },
+   "nome_do_sacado": {
+      "pos": [
+         325,
+         354
+      ],
+      "type": "alfa",
+      "size": 30,
+      "picture": "X(30)"
+   },
+   "brancos08": {
+      "pos": [
+         355,
+         377
+      ],
+      "type": "alfa",
+      "size": 23,
+      "picture": "X(23)"
+   },
+   "erros": {
+      "pos": [
+         378,
+         385
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)"
+   },
+   "brancos09": {
+      "pos": [
+         386,
+         392
+      ],
+      "type": "alfa",
+      "size": 7,
+      "picture": "X(07)"
+   },
+   "codigo_liquidacao": {
+      "pos": [
+         393,
+         394
+      ],
+      "type": "alfa",
+      "size": 2,
+      "picture": "X(02)"
+   }
+}

@@ -1,0 +1,86 @@
+{
+   "codigo_inscricao": {
+      "pos": [
+         18,
+         18
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "numero_inscricao": {
+      "pos": [
+         19,
+         33
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(15)"
+   },
+   "codigo_convenio": {
+      "pos": [
+         34,
+         39
+      ],
+      "type": "alfa",
+      "size": 6,
+      "picture": "X(6)"
+   },
+   "uso_exclusivo_banco": {
+      "pos": [
+         40,
+         53
+      ],
+      "type": "alfa",
+      "size": 14,
+      "picture": "X(14)",
+      "default": ""
+   },
+   "agencia": {
+      "pos": [
+         54,
+         58
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "agencia_dv": {
+      "pos": [
+         59,
+         59
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "codigo_cedente": {
+      "pos": [
+         60,
+         65
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(6)"
+   },
+   "codigo_modelo": {
+      "pos": [
+         66,
+         72
+      ],
+      "type": "number",
+      "size": 7,
+      "picture": "9(7)",
+      "default": "0"
+   },
+   "uso_exclusivo_banco_02": {
+      "pos": [
+         73,
+         73
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": "0"
+   }
+}

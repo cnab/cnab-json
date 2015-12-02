@@ -1,0 +1,60 @@
+{
+   "codigo_cedente": {
+      "pos": [
+         27,
+         42
+      ],
+      "type": "number",
+      "size": 16,
+      "picture": "9(16)"
+   },
+   "brancos01": {
+      "pos": [
+         43,
+         46
+      ],
+      "type": "alfa",
+      "size": 4,
+      "picture": "X(04)",
+      "default": ""
+   },
+   "mensagem": {
+      "pos": [
+         101,
+         158
+      ],
+      "type": "alfa",
+      "size": 58,
+      "picture": "X(58)"
+   },
+   "brancos02": {
+      "pos": [
+         159,
+         389
+      ],
+      "type": "alfa",
+      "size": 231,
+      "picture": "X(231)",
+      "default": ""
+   },
+   "numero_sequencial_a": {
+      "pos": [
+         390,
+         394
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(05)",
+      "default": "1"
+   },
+   "numero_sequencial_b": {
+      "pos": [
+         395,
+         400
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)",
+      "default": "1"
+   }
+}

@@ -1,0 +1,259 @@
+{
+   "zeros01": {
+      "pos": [
+         18,
+         20
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)",
+      "default": 0
+   },
+   "zeros02": {
+      "pos": [
+         21,
+         21
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": 0
+   },
+   "carteira": {
+      "pos": [
+         22,
+         24
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)"
+   },
+   "agencia": {
+      "pos": [
+         25,
+         29
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "conta": {
+      "pos": [
+         30,
+         36
+      ],
+      "type": "number",
+      "size": 7,
+      "picture": "9(7)"
+   },
+   "conta_dac": {
+      "pos": [
+         37,
+         37
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "zeros03": {
+      "pos": [
+         63,
+         70
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "nosso_numero": {
+      "pos": [
+         71,
+         82
+      ],
+      "type": "number",
+      "size": 12,
+      "picture": "9(12)"
+   },
+   "uso_banco01": {
+      "pos": [
+         83,
+         92
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "uso_banco02": {
+      "pos": [
+         93,
+         104
+      ],
+      "type": "number",
+      "size": 12,
+      "picture": "9(12)"
+   },
+   "indicador_rateio": {
+      "pos": [
+         105,
+         105
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)"
+   },
+   "zeros04": {
+      "pos": [
+         106,
+         107
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "carteira_cod": {
+      "pos": [
+         108,
+         108
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)"
+   },
+   "nosso_numero_dup": {
+      "pos": [
+         127,
+         146
+      ],
+      "type": "number",
+      "size": 20,
+      "picture": "9(20)"
+   },
+   "valor_outras_despesas": {
+      "pos": [
+         202,
+         214
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_mora_multa": {
+      "pos": [
+         267,
+         279
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "valor_outros_creditos": {
+      "pos": [
+         280,
+         292
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(11)V9(2)",
+      "precision": 2
+   },
+   "brancos01": {
+      "pos": [
+         293,
+         294
+      ],
+      "type": "alfa",
+      "size": 2,
+      "picture": "X(2)"
+   },
+   "motivo_ocorrencia": {
+      "pos": [
+         295,
+         295
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)"
+   },
+   "data_credito": {
+      "pos": [
+         296,
+         301
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(6)"
+   },
+   "origem_pagamento": {
+      "pos": [
+         302,
+         304
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)"
+   },
+   "brancos02": {
+      "pos": [
+         305,
+         314
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "codigo_banco": {
+      "pos": [
+         315,
+         318
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(4)"
+   },
+   "motivo_rejeicao": {
+      "pos": [
+         319,
+         328
+      ],
+      "type": "number",
+      "size": 10,
+      "picture": "9(10)"
+   },
+   "brancos03": {
+      "pos": [
+         329,
+         368
+      ],
+      "type": "alfa",
+      "size": 40,
+      "picture": "X(40)"
+   },
+   "numero_cartorio": {
+      "pos": [
+         369,
+         370
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "numero_protocolo": {
+      "pos": [
+         371,
+         380
+      ],
+      "type": "alfa",
+      "size": 10,
+      "picture": "X(10)"
+   },
+   "brancos04": {
+      "pos": [
+         381,
+         394
+      ],
+      "type": "alfa",
+      "size": 14,
+      "picture": "X(14)"
+   }
+}

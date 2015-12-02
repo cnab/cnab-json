@@ -1,0 +1,49 @@
+{
+   "codigo_cedente": {
+      "pos": [
+         24,
+         29
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(6)"
+   },
+   "uso_exclusivo_caixa_01": {
+      "pos": [
+         30,
+         37
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)",
+      "default": "0"
+   },
+   "uso_exclusivo_caixa_02": {
+      "pos": [
+         38,
+         40
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)",
+      "default": "0"
+   },
+   "modalidade_carteira": {
+      "pos": [
+         41,
+         42
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "nosso_numero": {
+      "pos": [
+         43,
+         57
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(15)"
+   }
+}

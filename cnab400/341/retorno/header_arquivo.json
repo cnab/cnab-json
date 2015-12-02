@@ -1,0 +1,106 @@
+{
+   "cobranca": {
+      "pos": [
+         27,
+         30
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(04)"
+   },
+   "zeros01": {
+      "pos": [
+         31,
+         32
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(02)",
+      "default": "00"
+   },
+   "conta": {
+      "pos": [
+         33,
+         37
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(05)"
+   },
+   "dac": {
+      "pos": [
+         38,
+         38
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(01)"
+   },
+   "brancos01": {
+      "pos": [
+         39,
+         46
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(08)",
+      "default": ""
+   },
+   "densidade": {
+      "pos": [
+         101,
+         105
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(05)"
+   },
+   "unidade_de_densid": {
+      "pos": [
+         106,
+         108
+      ],
+      "type": "alfa",
+      "size": 3,
+      "picture": "X(03)",
+      "default": "BPI"
+   },
+   "n_seq_arquivo_ret": {
+      "pos": [
+         109,
+         113
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(05)"
+   },
+   "data_de_credito": {
+      "pos": [
+         114,
+         119
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)"
+   },
+   "brancos02": {
+      "pos": [
+         120,
+         394
+      ],
+      "type": "alfa",
+      "size": 275,
+      "picture": "X(275)",
+      "default": ""
+   },
+   "numero_sequencial": {
+      "pos": [
+         395,
+         400
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)",
+      "default": 1
+   }
+}

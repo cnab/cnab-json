@@ -1,0 +1,69 @@
+{
+   "codigo_cedente": {
+      "pos": [
+         27,
+         46
+      ],
+      "type": "number",
+      "size": 20,
+      "picture": "9(20)"
+   },
+   "zeros01": {
+      "pos": [
+         101,
+         108
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)",
+      "default": 0
+   },
+   "numero_aviso_bancario": {
+      "pos": [
+         109,
+         113
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "brancos01": {
+      "pos": [
+         114,
+         379
+      ],
+      "type": "alfa",
+      "size": 266,
+      "picture": "X(266)",
+      "default": ""
+   },
+   "data_de_credito": {
+      "pos": [
+         380,
+         385
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(6)"
+   },
+   "brancos02": {
+      "pos": [
+         386,
+         394
+      ],
+      "type": "alfa",
+      "size": 9,
+      "picture": "X(9)",
+      "default": ""
+   },
+   "numero_sequencial": {
+      "pos": [
+         395,
+         400
+      ],
+      "type": "number",
+      "size": 6,
+      "picture": "9(06)",
+      "default": 1
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "data_debito_tarifa": {
+      "pos": [
+         154,
+         161
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "uso_exclusivo_febraban_02": {
+      "pos": [
+         162,
+         240
+      ],
+      "type": "number",
+      "size": 79,
+      "picture": "9(79)"
+   }
+}

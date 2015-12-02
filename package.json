@@ -1,0 +1,10 @@
+{
+  "name": "cnab-josn",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "https://github.com/cnab/cnab-json",
+  "dependencies": {
+    "cnab_yaml": "cnab/cnab_yaml",
+    "js-yaml": "^3.4.6"
+  }
+}

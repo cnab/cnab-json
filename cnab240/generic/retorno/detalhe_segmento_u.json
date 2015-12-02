@@ -1,0 +1,227 @@
+{
+   "codigo_banco": {
+      "pos": [
+         1,
+         3
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)"
+   },
+   "lote_servico": {
+      "pos": [
+         4,
+         7
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(4)"
+   },
+   "tipo_registro": {
+      "pos": [
+         8,
+         8
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "numero_sequencial_registro": {
+      "pos": [
+         9,
+         13
+      ],
+      "type": "number",
+      "size": 5,
+      "picture": "9(5)"
+   },
+   "codigo_segmento": {
+      "pos": [
+         14,
+         14
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)"
+   },
+   "uso_exclusivo_febraban_01": {
+      "pos": [
+         15,
+         15
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)"
+   },
+   "codigo_movimento": {
+      "pos": [
+         16,
+         17
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   },
+   "valor_acrescimos": {
+      "pos": [
+         18,
+         32
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "valor_desconto": {
+      "pos": [
+         33,
+         47
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "valor_abatimento": {
+      "pos": [
+         48,
+         62
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "valor_iof": {
+      "pos": [
+         63,
+         77
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "valor_pago": {
+      "pos": [
+         78,
+         92
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "valor_liquido": {
+      "pos": [
+         93,
+         107
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "valor_outras_despesas": {
+      "pos": [
+         108,
+         122
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "valor_outros_creditos": {
+      "pos": [
+         123,
+         137
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "data_ocorrencia": {
+      "pos": [
+         138,
+         145
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "data_credito": {
+      "pos": [
+         146,
+         153
+      ],
+      "type": "number",
+      "size": 8,
+      "picture": "9(8)"
+   },
+   "ocorrencia_sacado_codigo": {
+      "pos": [
+         154,
+         157
+      ],
+      "type": "alfa",
+      "size": 4,
+      "picture": "X(4)"
+   },
+   "ocorrencia_sacado_data": {
+      "pos": [
+         158,
+         165
+      ],
+      "type": "alfa",
+      "size": 8,
+      "picture": "X(8)"
+   },
+   "ocorrencia_sacado_valor": {
+      "pos": [
+         166,
+         180
+      ],
+      "type": "number",
+      "size": 15,
+      "picture": "9(13)V9(2)",
+      "precision": 2
+   },
+   "ocorrencia_sacado_complemento": {
+      "pos": [
+         181,
+         210
+      ],
+      "type": "alfa",
+      "size": 30,
+      "picture": "X(30)"
+   },
+   "codigo_banco_correspondente": {
+      "pos": [
+         211,
+         213
+      ],
+      "type": "number",
+      "size": 3,
+      "picture": "9(3)"
+   },
+   "nosso_numero_banco_correspondente": {
+      "pos": [
+         214,
+         233
+      ],
+      "type": "number",
+      "size": 20,
+      "picture": "9(20)"
+   },
+   "uso_exclusivo_febraban_02": {
+      "pos": [
+         234,
+         240
+      ],
+      "type": "number",
+      "size": 7,
+      "picture": "9(7)"
+   }
+}

@@ -1,0 +1,153 @@
+{
+   "agencia": {
+      "pos": [
+         18,
+         21
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(4)"
+   },
+   "agencia_dv": {
+      "pos": [
+         22,
+         22
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "conta": {
+      "pos": [
+         23,
+         31
+      ],
+      "type": "number",
+      "size": 9,
+      "picture": "9(9)"
+   },
+   "conta_dv": {
+      "pos": [
+         32,
+         32
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "conta_cobranca": {
+      "pos": [
+         33,
+         41
+      ],
+      "type": "number",
+      "size": 9,
+      "picture": "9(9)"
+   },
+   "conta_cobranca_dv": {
+      "pos": [
+         42,
+         42
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "reservado_santander_01": {
+      "pos": [
+         43,
+         44
+      ],
+      "type": "alfa",
+      "size": 2,
+      "picture": "X(2)",
+      "default": ""
+   },
+   "nosso_numero": {
+      "pos": [
+         45,
+         57
+      ],
+      "type": "number",
+      "size": 13,
+      "picture": "9(13)"
+   },
+   "reservado_santander_02": {
+      "pos": [
+         61,
+         61
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": ""
+   },
+   "reservado_santander_03": {
+      "pos": [
+         62,
+         62
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": ""
+   },
+   "numero_documento": {
+      "pos": [
+         63,
+         77
+      ],
+      "type": "alfa",
+      "size": 15,
+      "picture": "X(15)"
+   },
+   "agencia_cobradora": {
+      "pos": [
+         101,
+         104
+      ],
+      "type": "number",
+      "size": 4,
+      "picture": "9(4)",
+      "default": "0"
+   },
+   "agencia_cobradora_dv": {
+      "pos": [
+         105,
+         105
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": "0"
+   },
+   "reservado_santander_04": {
+      "pos": [
+         106,
+         106
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": ""
+   },
+   "reservado_santander_05": {
+      "pos": [
+         225,
+         225
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)",
+      "default": "0"
+   },
+   "prazo_baixa": {
+      "pos": [
+         226,
+         227
+      ],
+      "type": "number",
+      "size": 2,
+      "picture": "9(2)"
+   }
+}

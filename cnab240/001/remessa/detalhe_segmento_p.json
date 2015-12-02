@@ -1,0 +1,48 @@
+{
+   "conta": {
+      "pos": [
+         24,
+         35
+      ],
+      "type": "number",
+      "size": 12,
+      "picture": "9(12)"
+   },
+   "conta_dv": {
+      "pos": [
+         36,
+         36
+      ],
+      "type": "number",
+      "size": 1,
+      "picture": "9(1)"
+   },
+   "agencia_mais_conta_dv": {
+      "pos": [
+         37,
+         37
+      ],
+      "type": "alfa",
+      "size": 1,
+      "picture": "X(1)",
+      "default": ""
+   },
+   "nosso_numero": {
+      "pos": [
+         38,
+         57
+      ],
+      "type": "alfa",
+      "size": 20,
+      "picture": "X(20)"
+   },
+   "numero_documento": {
+      "pos": [
+         63,
+         77
+      ],
+      "type": "alfa",
+      "size": 15,
+      "picture": "X(15)"
+   }
+}
